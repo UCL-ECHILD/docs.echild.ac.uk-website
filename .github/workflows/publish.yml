@@ -84,7 +84,7 @@ jobs:
         uses: google-github-actions/setup-gcloud@v2
 
       - name: Deploy to Google Cloud
-        run: gsutil -m rsync -d -c -r _site gs://my-gcs-bucket
+        run: gsutil -m rsync -d -c -r _site gs://www.echild.ac.uk
 
 #    deploy:
 #    environment:
