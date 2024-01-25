@@ -1,4 +1,4 @@
-## ECHILD database structure 
+# ECHILD database structure 
 
 Overview of processes involved in the creation of the ECHILD database. 
 
