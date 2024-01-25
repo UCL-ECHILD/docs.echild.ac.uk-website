@@ -1,4 +1,4 @@
-# Introduction
+# Introduction {#sec-intro .unnumbered}
 
 ## Education & Child Health Insights from Linked Data (ECHILD)
 
