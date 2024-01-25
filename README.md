@@ -1,3 +1,4 @@
-# UCL-ECHILD.github.io
+# ECHILD documentation
 
-Repo for the ECHILD Website at [https://www.echild.ac.uk](https://www.echild.ac.uk).
+Repo for the ECHILD documentation website at 
+[https://docs.echild.ac.uk](https://docs.echild.ac.uk).

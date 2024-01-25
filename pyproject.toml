@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "echild"
+name = "echild-docs"
 version = "0.1.0"
 description = ""
 authors = ["tony-stone <tony-stone@users.noreply.github.com>"]
