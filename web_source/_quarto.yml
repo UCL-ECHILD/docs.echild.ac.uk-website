@@ -17,18 +17,12 @@ book:
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
-
     - intro.qmd
 
-    - part: part1.qmd
+    - part: echild.qmd
       chapters:
-        - part1a.qmd
-        - part1b.qmd
-
-    - part: part2.qmd
-      chapters:
-        - part2a.qmd
-        - EDA.qmd
+        - echild-overview.qmd
+        - echild-structure.qmd
 
 format:
   html:

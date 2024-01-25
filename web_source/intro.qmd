@@ -1,0 +1,36 @@
+# Introduction
+
+## Education & Child Health Insights from Linked Data (ECHILD)
+
+This guide introduces researchers to the ECHILD database by providing a broad 
+overview of its coverage, content and creation. ECHILD is a linkable collection 
+of longitudinal, administrative datasets from NHS hospitals, all state school 
+education and children’s social care services for the whole population of 
+children and young people in England.
+
+The administrative datasets from education, social care and hospital contacts 
+that have been brought together in ECHILD are well-documented by data providers 
+and the research community. This user guide does not duplicate existing 
+detailed information about these source datasets. Instead, we highlight key 
+aspects that have implications for the potential uses, strengths and 
+limitations of ECHILD. Variables that are included in ECHILD are available 
+separately in the ECHILD Data Catalogue; Appendix 1 lists some useful resources 
+related to the constituent datasets.
+
+## Partnerships
+
+The creation of [ECHILD](https://www.echild.ac.uk/) was led by University 
+College London in partnership with NHS England (NHSE) and the Department for 
+Education (DfE), and funded by ADR UK.[1, 2] 
+
+Figure 1.1 ECHILD project stakeholders
+
+Approvals to create and evaluate ECHILD as reported in this user guide were 
+granted by DfE (DR200604.02) and NHSE (DARS-NIC-381972). Ethical approval for 
+the ECHILD project was granted by the National Research Ethics Service 
+(17/LO/1494), NHS Health Research Authority Research Ethics Committee 
+(20/EE/0180 and 21/SW/0159) and is overseen by the UCL Great Ormond Street 
+Institute of Child Health’s Joint Research and Development Office (20PE16). 
+Further details, including the associated privacy notice, are on the ECHILD 
+website. ECHILD is available for re-use through the Office for National 
+Statistics Secure Research Service (ONS SRS)
