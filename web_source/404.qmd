@@ -1,6 +1,4 @@
----
-title: "ECHILD docs: Page Not Found"
----
+# Page Not Found
 
 That's a **404**.
 
