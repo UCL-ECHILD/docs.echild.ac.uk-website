@@ -68,8 +68,8 @@ jobs:
       - name: Deploy to cloudflare
         uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          accountId: ${{ secrets.CLOUDFLARE_ID }}
+          apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }}
           command: pages deploy ./_docs --project-name=echild-docs --commit-dirty=true
 
 #      Google Cloud deploy
