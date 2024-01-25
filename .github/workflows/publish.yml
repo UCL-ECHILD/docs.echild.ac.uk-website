@@ -67,12 +67,12 @@ jobs:
 #      - name: Upload artifact
 #        uses: actions/upload-pages-artifact@v2
 
-#      - name: Deploy to cloudflare
-#        uses: cloudflare/wrangler-action@v3
-#        with:
-#          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-#          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-#          command: pages deploy ./_site --project-name=echild --commit-dirty=true
+      - name: Deploy to cloudflare
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ./_site --project-name=echild --commit-dirty=true
 
       - name: Authenticate on GCS
         uses: google-github-actions/auth@v2
@@ -80,12 +80,12 @@ jobs:
           service_account: '${{ secrets.GCP_SA_EMAIL }}'
           workload_identity_provider: '${{ secrets.GCP_WIDP }}'
       
-      - name: Set up Google Cloud SDK
-        uses: google-github-actions/setup-gcloud@v2
-
-      - name: Deploy to Google Cloud
-        run: gsutil -m rsync -d -c -r _site gs://www.echild.ac.uk
-
+#      - name: Set up Google Cloud SDK
+#        uses: google-github-actions/setup-gcloud@v2
+#
+#      - name: Deploy to Google Cloud
+#        run: gsutil -m rsync -d -c -r _site ${{ secrets.GCP_LOC }}
+#
 #    deploy:
 #    environment:
 #      name: github-pages
