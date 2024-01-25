@@ -2,7 +2,7 @@
 title: "License"
 ---
 
-All content (excluding logos or where explicitly stated) licensed under the
+All content (excluding logos or where explicitly stated) is licensed under the
 <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"
    target="_blank"
    rel="license noopener noreferrer"
