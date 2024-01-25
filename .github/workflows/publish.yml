@@ -7,19 +7,19 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
+#  pages: write
+#  id-token: write
   
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  build_and_deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       #   
       # - name: Install dependencies for asdf R plugin
       #   run: apt-get install build-essential libcurl3-dev libreadline-dev gfortran liblzma-dev liblzma5 libbz2-1.0 libbz2-dev xorg-dev libbz2-dev liblzma-dev libpcre2-dev
@@ -40,7 +40,7 @@ jobs:
           
       - name: Load cached Python venv
         id: cached-poetry-dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: .venv
           key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
@@ -64,9 +64,7 @@ jobs:
         with:
           path: web_source/
 
-#      - name: Upload artifact
-#        uses: actions/upload-pages-artifact@v2
-
+#      Cloudflare deploy
       - name: Deploy to cloudflare
         uses: cloudflare/wrangler-action@v3
         with:
@@ -74,25 +72,21 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy ./_site --project-name=echild --commit-dirty=true
 
-      - name: Authenticate on GCS
-        uses: google-github-actions/auth@v2
-        with:
-          service_account: '${{ secrets.GCP_SA_EMAIL }}'
-          workload_identity_provider: '${{ secrets.GCP_WIDP }}'
-      
+#      Google Cloud deploy
+#      - name: Authenticate on GCS
+#        uses: google-github-actions/auth@v2
+#        with:
+#          service_account: '${{ secrets.GCP_SA_EMAIL }}'
+#          workload_identity_provider: '${{ secrets.GCP_WIDP }}'
+#      
 #      - name: Set up Google Cloud SDK
 #        uses: google-github-actions/setup-gcloud@v2
 #
 #      - name: Deploy to Google Cloud
 #        run: gsutil -m rsync -d -c -r _site ${{ secrets.GCP_LOC }}
-#
-#    deploy:
-#    environment:
-#      name: github-pages
-#      url: ${{ steps.deployment.outputs.page_url }}
-#    runs-on: ubuntu-latest
-#    needs: build
-#    steps:
+
+#      GitHub Pages deploy
+#      - name: Upload GH Pages artififact
+#        uses: actions/upload-pages-artifact@v2#
 #      - name: Deploy to GitHub Pages
-#        id: deployment
 #        uses: actions/deploy-pages@v2
