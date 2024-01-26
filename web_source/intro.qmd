@@ -21,7 +21,7 @@ related to the constituent datasets.
 
 The creation of [ECHILD](https://www.echild.ac.uk/) was led by University 
 College London in partnership with NHS England (NHSE) and the Department for 
-Education (DfE), and funded by ADR UK.[1, 2] 
+Education (DfE), and funded by ADR UK [@echild2023a; @adruk2023a].
 
 Figure 1.1 ECHILD project stakeholders
 

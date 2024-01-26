@@ -1,0 +1,6 @@
+# Disclaimer {.unnumbered}
+
+Although every effort has been made to provide complete and accurate information at the time of publication (June
+2023), the authors make no warranties, express or implied, or representations as to the accuracy of content in this 
+guide. The authors assume no liability or responsibility for any error or omissions in the information contained in the 
+guide.

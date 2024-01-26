@@ -1,0 +1,34 @@
+# Strengths {#strengths}
+
+## Includes information related to health, education & social care 
+
+HES and NPD are well-established administrative datasets for health, education and social care in England. These 
+datasets act as an evidence base to inform policy: they are used to produce national statistics by government 
+departments and for wider research purposes by the academic community. However, the lack of a common 
+identifier in these administrative datasets has limited the potential for wide-scale analysis across domains. By linking 
+health, education and social care datasets, ECHILD presents a unique and valuable opportunity to explore how 
+children’s health affects their education, and how their education affects their health. 
+
+## Longitudinal data resource for a whole population-based cohort of children & young people 
+
+All children and young people in England who were born between 01/09/1984 to date (updated annually) are 
+eligible for inclusion in ECHILD. Overall, the dataset contains linked health and education records for approximately 
+20 million individuals. The large sample size and long follow-up period will enable research into long-term outcomes 
+and less common exposures. The ambition is for ECHILD to be updated in the future to include more recent years of 
+data as they become available. This would extend the length of follow-up for cohort members who were born more 
+recently. 
+
+## Comprises well-documented administrative datasets 
+
+The constituent datasets within ECHILD are well-documented by data owners[9, 45] and the research community.[6, 
+10, 46-49] For example, details about how information in the datasets is collected, what variables they contain and 
+how coding has changed over time are readily available to researchers. Appendix 1 highlights some key resources for 
+researchers.
+
+## Provides timely access to administrative data for research purposes 
+
+Negotiating access with multiple administrative data providers is time-consuming and resource intensive, 
+particularly when it involves the transfer of identifiable information for linkage purposes.[50] Governance 
+arrangements for the re-use of the de-identified ECHILD data for research purposes via the ONS SRS are now 
+established. This will avoid the need for repeated transfer and use of identifiable information to link HES and NPD 
+data for individual research projects. 

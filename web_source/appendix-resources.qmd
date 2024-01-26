@@ -1,0 +1,43 @@
+# Resources {#sec-resources}
+
+## Additional resources
+
+1. Department for Education National Pupil Database: Data collection and censuses for schools [53]
+1. National Pupil Database online data dictionary [54]
+1. National Pupil Data User Group [55]
+1. Children’s Social Care User Group [56]
+1. NHSE documentation related to Hospital Episode Statistics [9]
+1. Hospital Episodes Statistics online data dictionary [18]
+
+## Articles 
+
+1. Data Resource Profile: HES APC [46]
+1. Data Resource: National Pupil Database [6]
+1. Cohort Profile: Children in Need Census [47]
+1. Data Resource Profile: Children Looked After Return [48]
+1. GUILD: GUidance for Information about Linking Data sets [57]
+1. REporting of studies Conducted using Observational Routinely-collected health Data [58]
+
+## Key ECHILD Publications 
+
+Authors Article 
+Blackburn, R et al. (2022) COVID-19-related school closures and patterns of hospital admissions with stress-related 
+presentations in secondary school-aged adolescents: weekly time series.[59]
+Nguyen V G et.al (2022) SEN support from the start of school and its impact on unplanned hospital utilisation in 
+children with cleft lip and palate: a demonstration target trial emulation protocol using 
+ECHILD.[60]
+Blackburn, R et al. (2021) Hospital admissions for stress-related presentations among school-aged adolescents during 
+term time versus holidays in England: weekly time series and retrospective cross-sectional 
+analysis.[61]
+Libuy, N et al. (2022) Gestational age at birth, chronic conditions and school outcomes: a population-based data 
+linkage study of children born in England.[62]
+Mc Grath-Lone L et al. (2022) Changes in adolescents’ planned hospital care during the COVID-19 pandemic: analysis of 
+linked administrative data.[63]
+Etoori, D et al (2021) Deficits in hospital care among clinically vulnerable children aged 0 to 4 years during the 
+COVID-19 pandemic.[64]
+Mc Grath-Lone L et al. (2021) Ethnic bias in data linkage.[65]
+Mc Grath-Lone L et al. (2021) Data Resource Profile: The Education and Child Health Insights from Linked Data (ECHILD) 
+Database.[4]
+Mc Grath-Lone L et al. (2022) What makes administrative data research-ready? A systematic review and thematic analysis 
+of published literature.[66]
+Libuy, N., et al. (2021) Linking education and hospital data in England: linkage process and quality.[52]

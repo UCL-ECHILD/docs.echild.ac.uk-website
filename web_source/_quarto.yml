@@ -19,11 +19,37 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-
-    - part: echild.qmd
+    - cite.qmd
+    - disclaimer.qmd
+    
+    - part: echild-overview.qmd
       chapters:
-        - echild-overview.qmd
-        - echild-structure.qmd
+        - overview-general.qmd
+        - overview-structure.qmd
+        
+    - part: echild-data.qmd
+      chapters:
+        - data-coverage.qmd
+        - data-hes.qmd
+        - data-other.qmd
+        - data-npd.qmd
+        - data-mother-baby.qmd
+
+    - part: echild-access.qmd
+      chapters:
+        - access-how.qmd
+        
+    - part: echild-quality.qmd
+      chapters:
+        - quality-strengths.qmd
+        - quality-limits.qmd
+        
+    - part: echild-appendix.qmd
+      chapters:
+        - appendix-resources.qmd
+        - appendix-linkage.qmd
+        
+    - references.qmd
 
 format:
   html:
@@ -32,3 +58,6 @@ format:
     code-copy: true
     code-link: true
     
+bibliography: references.bib
+csl: elsevier-vancouver.csl
+link-citations: true
