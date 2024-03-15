@@ -1,3 +1,6 @@
 # Welcome {.unnumbered}
 
 __This website is under development. Please check back soon.__
+
+
+![](static/echild-intro.png){fig-alt="An image with the ECHILD logo and the words Education & Child Health Insights from Linked Data: An introductory guide for researchers."}

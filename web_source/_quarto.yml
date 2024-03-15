@@ -19,12 +19,13 @@ book:
   chapters:
     - index.qmd
     - acknowledgements.qmd
-    - intro.qmd
+    - acronyms.qmd
     - cite.qmd
     - disclaimer.qmd
     
     - part: echild-overview.qmd
       chapters:
+        - intro.qmd
         - overview-general.qmd
         - overview-structure.qmd
         
@@ -45,11 +46,15 @@ book:
         - quality-strengths.qmd
         - quality-limits.qmd
         
-    - part: echild-appendix.qmd
-      chapters:
-        - appendix-resources.qmd
-        - appendix-linkage.qmd
-        
+  appendices:
+    - appendix-resources.qmd
+    - appendix-linkage.qmd
+    
+#    - part: echild-appendix.qmd
+#      appendices:
+#        - appendix-resources.qmd
+#        - appendix-linkage.qmd
+#        
     - references.qmd
 
 format:

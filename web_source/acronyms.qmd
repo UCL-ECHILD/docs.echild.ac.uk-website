@@ -1,0 +1,49 @@
+# Acronyms {.unnumbered}
+
+|---|---|
+| A&E | Accident & Emergency |
+| ADRUK | Administrative Data Research UK |
+| AOC | Assured Organisational Connectivity |
+| AP | Alternative Provision |
+| APC | Admitted Patient Care |
+| aPMR | anonymised Pupil Matching Reference |
+| CC | Critical Care |
+| CIN | Children in Need |
+| CLA | Children Looked After |
+| CPP | Child Protection Plans |
+| CSDS | Community Services Data Set |
+| DEA | Digital Economy Act |
+| DfE | Department for Education |
+| ECHILD | Education & Child Health Insights from Linked Data |
+| EHC | Education, Health & Care |
+| EYFSP | Early Years Foundation Stage Profile |
+| FAE | Finished Admission Episode |
+| FCE | Finished Consultant Episode |
+| FE | Finished Episode |
+| FSM | Free School Meals |
+| GIAS | Get Information About Schools |
+| GP | General Practitioner |
+| HES | Hospital Episode Statistics |
+| ICD | International Classification of Diseases |
+| ILR | Individualised Learner Record |
+| KS | Key Stage |
+| MHMDS | Mental Health Minimum Data Set |
+| MHSDS | Mental Health Services Data Set |
+| MPS | Master Person Service |
+| MSDS | Maternity Services Data Set |
+| NCCIS | National Client Caseload Information System |
+| NEET | Not in Education, Employment or Training |
+| NHSE | National Health Service England |
+| NIHR | National Institute for Health and Care Research |
+| NPD | National Pupil Database |
+| ONS | Office for National Statistics |
+| OP | Outpatient |
+| OPCS | Office of Population Censuses and Surveys |
+| PPIE | Public and Patient Involvement and Engagement |
+| PRU | Pupil Referral Unit |
+| PVI | Private, Voluntary and Independent |
+| RAP | Research Accreditation Panel |
+| SEN | Special Educational Needs |
+| SRS | Secure Research Service |
+| TPI | Token Person ID |
+| UPN | Unique Pupil Number |
