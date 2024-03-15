@@ -43,6 +43,6 @@ For further information, comments or queries about this publication:
 
 |              Website              |                            Email                            |                    Twitter                     |
 |:----------------------:|:----------------------:|:----------------------:|
-| [www.ucl.ac.uk/child-health/echild] | [ich.echild\@ucl.ac.uk](mailto:ich.echild@ucl.ac.uk){.email} | [\@ucl_echild](https://twitter.com/ucl_echild) |
+| [www.ucl.ac.uk/child-health/echild](https://www.ucl.ac.uk/child-health/echild) | [ich.echild\@ucl.ac.uk](mailto:ich.echild@ucl.ac.uk){.email} | [\@ucl_echild](https://twitter.com/ucl_echild) |
 
 User Guide v2.0 (Updated June 2023; this web version March 2024)
