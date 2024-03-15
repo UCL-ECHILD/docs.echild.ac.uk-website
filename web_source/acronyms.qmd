@@ -1,5 +1,6 @@
 # Acronyms {.unnumbered}
 
+| Acronym | Definition |
 |---|---|
 | A&E | Accident & Emergency |
 | ADRUK | Administrative Data Research UK |
