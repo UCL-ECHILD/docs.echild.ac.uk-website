@@ -41,7 +41,7 @@ This work is supported by ADR UK (Administrative Data Research UK), an Economic 
 
 For further information, comments or queries about this publication:
 
-|              Website              |                            E-mail                            |                    Twitter                     |
+|              Website              |                            Email                            |                    Twitter                     |
 |:----------------------:|:----------------------:|:----------------------:|
 | [www.ucl.ac.uk/child-health/echild] | [ich.echild\@ucl.ac.uk](mailto:ich.echild@ucl.ac.uk){.email} | [\@ucl_echild](https://twitter.com/ucl_echild) |
 
