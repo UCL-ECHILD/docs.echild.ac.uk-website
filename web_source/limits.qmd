@@ -1,4 +1,4 @@
-# Limitations {#sec-sl-limits .unnumbered}
+# Limitations {#sec-sl-limits}
 
 ## Administrative data are not collected for research purposes 
 

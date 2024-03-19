@@ -6,46 +6,58 @@ This section provides an overview of the linkage process (Figure 2.2) used to cr
 
 ### The Department for Education’s National Pupil Database 
 
-The Department for Education (DfE) collates and manages data on school children in England in a resource known as 
-the National Pupil Database (NPD).[6] For the purposes of the ECHILD linkage, salient points are described below.
-Within NPD, each record is associated with natural identifiers (forename, surname, gender, date of birth, postcode) 
-relating to the pupil’s details as known by the submitting organisation at the time the data were submitted. DfE 
-additionally assigns each record in NPD an anonymised Pupil Matching Reference (aPMR). An aPMR is an identifier 
-which is not in itself meaningful: it does not reveal the identity of the pupil. aPMRs are assigned to all records in NPD 
-such that one aPMR should represent one pupil and each pupil should have only one aPMR. This allows records for 
-each pupil to be identified across NPD, both between different datasets and over time, without revealing their 
-identity. As a result, NPD contains a longitudinal record of pupils’ names, addresses, and (potentially) genders over 
-time.
+The Department for Education (DfE) collates and manages data on school children 
+in England in a resource known as the National Pupil Database (NPD).[6] For the 
+purposes of the ECHILD linkage, salient points are described below. Within NPD, 
+each record is associated with natural identifiers (forename, surname, gender, 
+date of birth, postcode) relating to the pupil’s details as known by the 
+submitting organisation at the time the data were submitted. DfE additionally 
+assigns each record in NPD an anonymised Pupil Matching Reference (aPMR). An 
+aPMR is an identifier which is not in itself meaningful: it does not reveal the 
+identity of the pupil. aPMRs are assigned to all records in NPD such that one 
+aPMR should represent one pupil and each pupil should have only one aPMR. This 
+allows records for each pupil to be identified across NPD, both between 
+different datasets and over time, without revealing their identity. As a 
+result, NPD contains a longitudinal record of pupils’ names, addresses, and 
+(potentially) genders over time.
 
 ### NHS England’s Personal Demographics Service and Master Person Service 
 
-NHS England operates the Personal Demographics Service (PDS), a national electronic database of demographic data 
-for patients accessing care in England or services funded by the NHS in England. PDS contains natural identifiers 
-(forename, surname, gender, date of birth, postcode) and NHS number. Each person is assigned a distinct NHS 
-number at birth if born in England, or at the first time of accessing NHS services in England if not otherwise 
-registered. PDS holds a longitudinal record of name and address changes made to NHS services in England over time. 
-This means there may be many records for each person in PDS but all records for a person should be assigned the 
-same NHS number (with some exceptions, see reference [67]). 
+NHS England operates the Personal Demographics Service (PDS), a national 
+electronic database of demographic data for patients accessing care in England 
+or services funded by the NHS in England. PDS contains natural identifiers 
+(forename, surname, gender, date of birth, postcode) and NHS number. Each 
+person is assigned a distinct NHS number at birth if born in England, or at the 
+first time of accessing NHS services in England if not otherwise registered. 
+PDS holds a longitudinal record of name and address changes made to NHS 
+services in England over time. This means there may be many records for each 
+person in PDS but all records for a person should be assigned the same NHS 
+number (with some exceptions, see reference [67]). 
 
-The Master Person Service (MPS), managed by NHS England,[68] takes a record of natural identifiers and attempts to 
-match this to a PDS record allowing for some errors and missingness in the recording of the natural identifiers. If this 
-fails and the natural identifiers are sufficiently complete, MPS attempts to match records against a secondary store 
-(MPS bucket) of natural identifiers of persons who previously had contact with the NHS in England and do not have 
-an NHS number, these persons are assigned an ‘MPS ID’.
+The Master Person Service (MPS), managed by NHS England,[68] takes a record of 
+natural identifiers and attempts to match this to a PDS record allowing for 
+some errors and missingness in the recording of the natural identifiers. If 
+this fails and the natural identifiers are sufficiently complete, MPS attempts 
+to match records against a secondary store (MPS bucket) of natural identifiers 
+of persons who previously had contact with the NHS in England and do not havean 
+NHS number, these persons are assigned an ‘MPS ID’.
 
 The MPS returns a “Person ID” using either: 
 
 1. NHS number, if a valid match is found in PDS; or,
-1. MPS ID if no match is found in PDS but a valid match is found in the MPS bucket; or,
+1. MPS ID if no match is found in PDS but a valid match is found in the MPS 
+bucket; or,
 1. No value if no match is found in either PDS or the MPS bucket.
 
-The Person ID is then encrypted to generate a Token Person ID (TPI), which is not meaningful and does not reveal the 
-person’s identity.
+The Person ID is then encrypted to generate a Token Person ID (TPI), which is 
+not meaningful and does not reveal the person’s identity.
 
-Person IDs, enabling the assignment of Token Person IDs, are also recorded throughout NHS England’s standard data 
-collections, including Hospital Episode Statistics datasets, Emergency Care Datasets, Mental Health Services 
-Datasets, and Community Services Datasets. The ‘Person ID’ or ‘TPI’ are primarily the only means to identify records 
-belonging to a single patient amongst data held by NHS England.
+Person IDs, enabling the assignment of Token Person IDs, are also recorded 
+throughout NHS England’s standard data collections, including Hospital Episode 
+Statistics datasets, Emergency Care Datasets, Mental Health Services Datasets, 
+and Community Services Datasets. The ‘Person ID’ or ‘TPI’ are primarily the 
+only means to identify records belonging to a single patient amongst data held 
+by NHS England.
 
 ## Linking DfE NPD aPMRs to NHS England TPIs 
 
@@ -53,19 +65,25 @@ For the purposes of the ECHILD linkage, four simplifying assumptions were made:
 
 1. Each aPMR represents precisely one “real” person within NPD;
 1. Each “real” person represented within NPD has precisely one aPMR;
-1. Each TPI represents precisely one “real” person within NHS England data collections;
-1. Each “real” person represented within NHS England data collections has precisely one TPI.
+1. Each TPI represents precisely one “real” person within NHS England data 
+collections;
+1. Each “real” person represented within NHS England data collections has 
+precisely one TPI.
 
-The linkage task resulted in a ‘one-to-one’ match, linking each aPMR to a single TPI. 
+The linkage task resulted in a ‘one-to-one’ match, linking each aPMR to a 
+single TPI. 
 
-DfE supplied a ‘linkage dataset’ to NHS England, comprising the natural identifiers (forename, surname, gender, date 
-of birth, postcode) and an aPMR for each record in its NPD.
+DfE supplied a ‘linkage dataset’ to NHS England, comprising the natural 
+identifiers (forename, surname, gender, date of birth, postcode) and an aPMR 
+for each record in its NPD.
 
 ### Linkage Stage 1: Exact link 
 
-An initial, simple, linkage stage was used to avoid over-burdening the more resource-intensive MPS trace. Each valid 
-record (e.g., no blank entries) in the linkage dataset was compared to all records in a prepared extract from PDS. 
-A record was deemed “linked” if compared records matched on the following criteria:
+An initial, simple, linkage stage was used to avoid over-burdening the more 
+resource-intensive MPS trace. Each valid record (e.g., no blank entries) in the 
+linkage dataset was compared to all records in a prepared extract from PDS. A 
+record was deemed “linked” if compared records matched on the following 
+criteria:
 
 1. First four characters of forename;
 1. Full surname;
@@ -77,12 +95,14 @@ An aPMR was considered ‘matched’ if it had a one-to-one link to a TPI.
 
 ### Linkage Stage 2: MPS Trace 
 
-Records with aPMRs that were not ‘matched’ in Linkage Stage 1 were submitted to MPS.
-Again, an aPMR was considered ‘matched’ if it had a one-to-one link to a TPI.
+Records with aPMRs that were not ‘matched’ in Linkage Stage 1 were submitted to 
+MPS. Again, an aPMR was considered ‘matched’ if it had a one-to-one link to a 
+TPI.
 
 ### Linkage Outputs: Pseudonymised Bridging file 
 
-NHS England produced a Pseudonymised Bridging file consisting of all aPMRs in the DfE-supplied linkage dataset and 
-their "matched” TPI. All aPMRs that were not matched after Linkage Stage 2 were included in this file but did not 
-have an assigned TPI. An additional variable indicating at what stage each aPMR was linked was also present in the 
-NHS England bridge file.
+NHS England produced a Pseudonymised Bridging file consisting of all aPMRs in 
+the DfE-supplied linkage dataset and their "matched” TPI. All aPMRs that were 
+not matched after Linkage Stage 2 were included in this file but did not have 
+an assigned TPI. An additional variable indicating at what stage each aPMR was 
+linked was also present in the NHS England bridge file.

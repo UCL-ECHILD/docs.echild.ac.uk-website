@@ -1,4 +1,4 @@
-# ECHILD database structure {#sec-echild-database-structure .unnumbered}
+# ECHILD database structure {#sec-echild-database-structure}
 
 Overview of processes involved in the creation of the ECHILD database.
 

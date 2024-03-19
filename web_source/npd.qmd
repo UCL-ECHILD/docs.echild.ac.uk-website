@@ -1,4 +1,4 @@
-# National Pupil Database {#sec-data-npd .unnumbered}
+# National Pupil Database {#sec-data-npd}
 
 The NPD was formally established in 2002 based on including a pupil census record for every child in state education. Prior to 2002, key stage test results were recorded from 1995/6 (for KS2) which is linkable to the pupil census. The  NPD database is curated by the Department for Education (DfE). The NPD is made up of modules of data that are  collected by the DfE from schools, local authorities and exam-awarding organisations on an ongoing and statutory  basis.[28] Information collected as part of NPD is used for funding purposes, policy-making, generating statistics and research. The NPD modules included in ECHILD can be broadly grouped as pupil characteristics, educational  outcomes and social care.  NPD does not include information on pupils within private schools, or those being home-schooled, except in relation  to public examinations (key stage 4 and 5). Approximately 7% of children [6] are enrolled in a private school each  year with up to 11% ever enrolled in a private school during their school career.[29]
 
@@ -6,10 +6,10 @@ The NPD was formally established in 2002 based on including a pupil census recor
 
 | Dataset | Years | Details |
 |:--------|:---|:-----------|
-| School Census Pupil Level [^1][^2] | 2001 to 2022 | Information on pupils enrolled in state-funded schools, including localauthority-maintained schools, academies, free schools, city technical colleges and special schools. Data collected termly: Autumn (October);  Spring (January); Summer (May). From Spring 2013/14, the school  census also includes pupils enrolled in Pupil Referral Units (previously  collected in a separate census). The census does not contain information for pupils enrolled in hospital schools or non-maintained independent schools (e.g., private schools) or who pursue an apprenticeship, traineeship, training, or work asp part of their post-16 options. |
-| Early Years Census [^2][^3] | 2007 to 2022 | Children (all 2- to 4-year-olds) in state-funded early years care in any private, voluntary, and independent (PVI) sector nursery, with one or more children receiving funding from DfE. Data collected annually (January). |
-| Pupil Referral Unit Census (PRU) [^2] | 2009 to 2013 | Information on pupils enrolled in PRUs (a form of school for pupils unable to attend mainstream schools due to factors such as behavioural issues). Data collected annually until January 2013. From Spring 2013/14, this data is collected as part of the School Census. |
-| Alternative Provision Census (AP) [^2] | 2007 to 2022 | An annual census (collected in January) of pupils who are educated in alternative provision placements. Provision must be arranged by the local authority or school otherwise the child would not receive suitable education e.g., due to illness or if they received a fixed-term exclusion. |
+| School Census Pupil Level[^1][^2] | 2001 to 2022 | Information on pupils enrolled in state-funded schools, including localauthority-maintained schools, academies, free schools, city technical colleges and special schools. Data collected termly: Autumn (October);  Spring (January); Summer (May). From Spring 2013/14, the school  census also includes pupils enrolled in Pupil Referral Units (previously  collected in a separate census). The census does not contain information for pupils enrolled in hospital schools or non-maintained independent schools (e.g., private schools) or who pursue an apprenticeship, traineeship, training, or work asp part of their post-16 options. |
+| Early Years Census[^2][^3] | 2007 to 2022 | Children (all 2- to 4-year-olds) in state-funded early years care in any private, voluntary, and independent (PVI) sector nursery, with one or more children receiving funding from DfE. Data collected annually (January). |
+| Pupil Referral Unit Census (PRU)[^2] | 2009 to 2013 | Information on pupils enrolled in PRUs (a form of school for pupils unable to attend mainstream schools due to factors such as behavioural issues). Data collected annually until January 2013. From Spring 2013/14, this data is collected as part of the School Census. |
+| Alternative Provision Census (AP)[^2] | 2007 to 2022 | An annual census (collected in January) of pupils who are educated in alternative provision placements. Provision must be arranged by the local authority or school otherwise the child would not receive suitable education e.g., due to illness or if they received a fixed-term exclusion. |
 
 
 [^1]: After KS4, the School Census Pupil Level module only contains information for young people who continue in full-time post-16 education in schools or colleges. 
@@ -23,8 +23,7 @@ The NPD was formally established in 2002 based on including a pupil census recor
 | Dataset | Years | Details |
 |:--------|:---|:-----------|
 | School Level Census | 2005 to 2022 | Collects information from primary schools, secondary schools, special schools, maintained nurseries and academies and pupil referral units three times a year, however, private schools are not included.[31] |
-| Get Information about Schools (GIAS) | 2020 to 2022 | 
-GIAS (formerly 'Edubase') is the DfE's public register or dataset containing school characteristics. GIAS is updated whenever a school updates their details. GIAS also maintains information for several organisation types and is used by the DfE to contact establishments, update systems, perform analysis and inform policy decisions.[32] |
+| Get Information about Schools (GIAS) | 2020 to 2022 | GIAS (formerly 'Edubase') is the DfE's public register or dataset containing school characteristics. GIAS is updated whenever a school updates their details. GIAS also maintains information for several organisation types and is used by the DfE to contact establishments, update systems, perform analysis and inform policy decisions.[32] |
 
 ## Attribute data: Educational Outcomes 
 
@@ -34,10 +33,10 @@ GIAS (formerly 'Edubase') is the DfE's public register or dataset containing sch
 | Key Stage 1 (KS1) | 1997 to 2022 | Key stage 1 attainment data. Has information on assessment of learners by the end of year 2 of schooling (age 7). |
 | Key Stage 2 (KS2) | 1995 to 2022 | Key stage 2 attainment data. Has information on assessment of learners by the end of year 6 of schooling (age 11). |
 | Key Stage 3 (KS3) | 1998 to 2013 | Key stage 3 attainment data. Has information on assessment of learners by the end of year 9 of schooling (age 14). |
-| Key Stage 4 (KS4) [^4] | 2001 to 2021 | Key stage 4 attainment data (all methodologies). Has information on the assessment of learners by the end of year 11 of schooling (age 16). |
-| Key Stage 5 (KS5) [^4] | 2002 to 2021 | Key stage 5 attainment data. Has information on post-16 assessment of learners in school, sixth forms and Further Education colleges. |
-| Absences [^5] | 2005 to 2022 | Has information on authorised and unauthorised absences, including reasons for absence, derived from the termly School Census, for 4- to 15-year-olds. |
-| Exclusions [^6] | 2001 to 2021 | Has information on pupil fixed term and permanent exclusions as collected in the termly School Census. |
+| Key Stage 4 (KS4)[^4] | 2001 to 2021 | Key stage 4 attainment data (all methodologies). Has information on the assessment of learners by the end of year 11 of schooling (age 16). |
+| Key Stage 5 (KS5)[^4] | 2002 to 2021 | Key stage 5 attainment data. Has information on post-16 assessment of learners in school, sixth forms and Further Education colleges. |
+| Absences[^5] | 2005 to 2022 | Has information on authorised and unauthorised absences, including reasons for absence, derived from the termly School Census, for 4- to 15-year-olds. |
+| Exclusions[^6] | 2001 to 2021 | Has information on pupil fixed term and permanent exclusions as collected in the termly School Census. |
 | National Client Caseload Information (NCCIS) [^7] | 2002 to 2021 | Has information from the National Client Caseload Information System on employment destinations. |
 
 
