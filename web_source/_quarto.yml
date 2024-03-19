@@ -18,41 +18,41 @@ book:
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
-    - pref-acknowledgements.qmd
-    - pref-acronyms.qmd
-    - pref-cite.qmd
-    - pref-disclaimer.qmd
+    - acknowledgements.qmd
+    - acronyms.qmd
+    - cite.qmd
+    - disclaimer.qmd
     
     - part: echild.qmd
       chapters:
         - echild-introduction.qmd
-        - echild-information-scope.qmd
-        - echild-key-research-purposes.qmd
+        - information-scope.qmd
+        - key-research-purposes.qmd
         - echild-overview.qmd
-        - echild-database-structure.qmd
+        - database-structure.qmd
         
     - part: data.qmd
       chapters:
-        - data-attribute-data.qmd
+        - attribute-data.qmd
         - data-coverage.qmd
-        - data-hes.qmd
-        - data-npd.qmd
-        - data-mother-baby.qmd
+        - hes.qmd
+        - npd.qmd
+        - mother-baby.qmd
 
     - part: access.qmd
       chapters:
-        - access-five-safes.qmd
-        - access-no-other-linkage.qmd
-        - access-ethics.qmd
-        - access-access-conditions.qmd
+        - five-safes.qmd
+        - other-linkage.qmd
+        - ethics.qmd
+        - access-conditions.qmd
         - access-process.qmd
-        - access-accredited-researcher.qmd
-        - access-aoc.qmd
+        - accredited-researcher.qmd
+        - aoc.qmd
         
-    - part: sl.qmd
+    - part: quality.qmd
       chapters:
-        - sl-strengths.qmd
-        - sl-limits.qmd
+        - strengths.qmd
+        - limits.qmd
     
     - part: references.qmd
   
