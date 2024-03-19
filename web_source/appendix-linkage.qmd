@@ -1,4 +1,4 @@
-# Appendix 2: Linkage process {#sec-linkage}
+# Linkage process {#sec-linkage}
 
 This section provides an overview of the linkage process (Figure 2.2) used to create the ECHILD database. 
 

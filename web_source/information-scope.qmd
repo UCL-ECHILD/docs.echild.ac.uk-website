@@ -1,0 +1,7 @@
+# Information scope {#sec-echild-information-scope .unnumbered}
+
+In England, information on a child’s journey through education and social care is recorded in administrative records held by the Department for Education (the National Pupil Database; NPD). NHS England holds information about all NHS hospital contacts (captured in Hospital Episode Statistics; HES). HES records are generated for the purposes of service delivery, e.g., to support financial reimbursement for treatment relating to a hospital stay.
+
+Within ECHILD, healthcare, education and social care records have been linked to create a longitudinal database that follows children over time. The database is very useful for research as health, education and social care trajectories are strongly interrelated from childhood to adulthood. ECHILD provides a valuable opportunity to explore these relationships and to generate evidence for policy and practice.[@mcgrathlone2021a]
+
+![](static/echild-information-scope.png){fig-alt="Diagram showing a child's hypothetical journey from birth to adultood and the various health, education and social care contacts they might have."}

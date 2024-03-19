@@ -1,0 +1,5 @@
+# ECHILD database structure {#sec-echild-database-structure .unnumbered}
+
+Overview of processes involved in the creation of the ECHILD database.
+
+![](static/echild-database-structure.png){fig-alt="Schematic diagram showing the relationships between NPD, HES and ECHILD."}

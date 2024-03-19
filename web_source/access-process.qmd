@@ -1,0 +1,12 @@
+# Process to access ECHILD {#sec-access-process .unnumbered}
+
+To access ECHILD, the following steps are required:
+
+1. Contact ECHILD Team: [ich.echild\@ucl.ac.uk](mailto:ich.echild@ucl.ac.uk){.email}
+2. Complete ethics self-assessment
+3. Submit an application form to UCL
+4. Obtain approval from UCL on feasibility and purpose
+5. Submit the UCL-approved application form to ONS Research Accreditation Panel (RAP)
+6. Obtain approval from RAP for release under Digital Economy Act (DEA) 
+7. Sign Data Access Agreements with UCL & ONS Accredited Researcher Assurance Registration (ARAR) form.
+8. UCL instructs ONS to provide access to a specified extract of ECHILD to named user(s)

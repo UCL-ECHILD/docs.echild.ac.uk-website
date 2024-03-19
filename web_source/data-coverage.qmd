@@ -1,5 +1,26 @@
-# Data coverage (years) {sec-data-coverage}
+# Data coverage (years) {#sec-data-coverage. unnumbered}
 
 Coverage of the Attribute data currently available within ECHILD (years of follow-up).
 
-Figure 3.2 Timespan (years) covered by the Attribute data. 
+![](static/data-coverage.png){img-alt="Gantt chart showing the years that each ECHILD module is available."}
+
+| Key | Detail                                                                                                                                                                          |
+|:----------------|:------------------------------------------------------|
+| a   | HES data are collated by financial year (1st Apr to 31st Mar), which partially covers an academic year (1st Sep to 31st Aug).                                                   |
+| b   | Partial coverage as HES A&E data were experimental and did not have full national coverage.                                                                                     |
+| c   | Partial coverage as HES Outpatient data were experimental and did not have full national coverage.                                                                              |
+| d   | Partial coverage of an academic year as ONS Mortality data were first linked to HES in January 1998.                                                                            |
+| e   | The PRU Census were subsumed into the School Census Pupil Level from 2013/14.                                                                                                   |
+| f   | The Early Years Census included 3- to 4-year-olds between 2007/08 and 2012/13. From 2013/14 it includes 2- to 4-year-olds.                                                      |
+| g   | Key Stage 3 assessments ceased after 2012/13.                                                                                                                                   |
+| h   | Partial coverage of population as between 01/04/1992 & 31/03/2003, CLA data were only collected for a one-third sample (i.e., children with a day of birth divisible by 3).     |
+| i   | Linkage between Education & Social Care modules of NPD began in April 2006 for CLA and April 2009 for CIN (partially complete until 2012, mainly applies to under 5-year-olds). |
+| j   | Not yet ingested to ONS SRS.                                                                                                                                                    |
+| k   | Not collected to help reduce the burden on educational and care settings during the coronavirus (COVID-19) pandemic.                                                            |
+| l   | Partial coverage as between the 2002/3 and 2005/6 academic years, data only on a 10% sample of children.                                                                        |
+| m   | Not provided with standard institutional identifiers in 2019/20 and 2020/21 as evaluation of individual institutional performance during the pandemic years is not permitted.   |
+| n   | From 2001/02 to 2004/05 annual census exists, from 2005/06 onwards census data are termly.                                                                                      |
+| o   | ECDS data from October 2017 to 2019/20 are considered pilot data, with ECDS formally replacing HES A&E in 2020/21.                                                              |
+| p   | MHSDS: v1.5 (from 2015/16 to 2018/19) up to v5.0 (from Oct 2021 to Mar 2022).                                                                                                   |
+| q   | Data from October 2002.                                                                                                                                                         |
+| r   | Data from January 1996.                                                                                                                                                         |
