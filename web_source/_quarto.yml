@@ -42,7 +42,7 @@ book:
     - part: access.qmd
       chapters:
         - five-safes.qmd
-        - other-linkage.qmd
+        - no-other-linkage.qmd
         - ethics.qmd
         - access-conditions.qmd
         - access-process.qmd
