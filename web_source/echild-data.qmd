@@ -1,0 +1,8 @@
+# ECHILD Attribute data {#sec-echild-data .unnumbered}
+
+For all students in English state schools, administrative data are routinely collected about their education (stored 
+within NPD), as is information on all contacts with healthcare services (stored within HES). ECHILD is a collection of 
+themed datasets, or ‘Attribute data,’ comprised of multiple tables that span multiple years, stored as separate files 
+that are linkable using the aPMR, TPI and NHSE ‘Pseudonymised Bridging file’.
+
+Figure 3.1 Conceptual representation of ‘Attribute data’ available within ECHILD

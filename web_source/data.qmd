@@ -1,9 +1,0 @@
-# Data {#sec-data}
-
-In this section:
-
-* @sec-data-attribute-data
-* @sec-data-coverage
-* @sec-data-hes
-* @sec-data-npd
-* @sec-mother-baby-linkage

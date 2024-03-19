@@ -1,9 +1,0 @@
-# ECHILD {#sec-echild}
-
-In this section:
-
-* @sec-echild-introduction
-* @sec-echild-information-scope
-* @sec-echild-key-research-purposes
-* @sec-echild-overview
-* @sec-echild-database-structure

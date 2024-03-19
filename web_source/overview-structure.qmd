@@ -1,0 +1,5 @@
+# ECHILD database structure 
+
+Overview of processes involved in the creation of the ECHILD database. 
+
+Figure 2.2 Formation of the ECHILD database
