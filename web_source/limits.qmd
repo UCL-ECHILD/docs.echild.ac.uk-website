@@ -1,0 +1,13 @@
+# Limitations {#sec-sl-limits .unnumbered}
+
+## Administrative data are not collected for research purposes 
+
+Administrative datasets are not specifically collected for research purposes, which has implications for the type of research that can be carried out and how research findings are interpreted.[51] For example, HES data are primarily used for reimbursement of costs and so there may be differences in the frequency and quality of the information that is recorded based on the impact it has on payment. Researchers who intend to carry out secondary analysis of ECHILD must familiarise themselves with the constituent datasets to understand the potential limitations and caveats of their proposed analyses.
+
+## Potential for linkage error 
+
+Firstly, there may be errors in the linkage of records within HES (by TPI) or NPD (by aPMR). As previously outlined, TPI and aPMR are derived using linkage algorithms that use various combinations of identifiable information, including name, date of birth, postcode and NHS number or UPN. Secondly, there may be errors in the linkage between HES and NPD that was carried out to create the ECHILD database. Initial evaluation of linkage quality found that approximately 97% of children recorded in NPD matched to a HES record, but that minority ethnic groups and pupils from more disadvantaged neighbourhoods were less likely to be linked.[52]
+
+## Constituent datasets in ECHILD have different structures 
+
+Both HES and NPD contain individual-level data; however, the structure of the dataset modules varies between (and within) HES and NPD. For example, HES is an episode-level dataset where each row represents a period of continuous care from a consultant, outpatient appointment or A&E attendance, depending on the data module.NPD, CIN and CLA are also episode-level data modules where each row represents a referral to Children’s Social Care services (within which there is a significant degree of duplication) or a period of time a child was looked after under a specific legal status and in a specific placement setting, respectively. NPD census modules contain enrolment-level information which means that children who are simultaneously enrolled in more than one educational setting will have multiple rows of information recorded. These differences in data structure mean that researchers will need to carry out substantial dataset manipulation prior to their analyses.

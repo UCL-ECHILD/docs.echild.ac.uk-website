@@ -1,9 +1,0 @@
-# Mother-baby Linkage in ECHILD 
-
-The ECHILD team are in the process of creating a ‘mother-baby’ link, whereby HES delivery and birth records for both 
-mother and baby will be linked together using a probabilistic linkage algorithm.[40] In summary, the probabilistic 
-linkage approach uses ‘indirect identifiers’, i.e., information from the maternity and baby tails within HES (such as 
-gestational age and birth weight) to link together mother-baby dyads. Previous work has demonstrated high linkage 
-rates using this approach.[41] The mother-baby linkage means that it is possible within ECHILD to look at how 
-maternal characteristics (including those captured in health, education and social care datasets) are related to child 
-outcomes. 

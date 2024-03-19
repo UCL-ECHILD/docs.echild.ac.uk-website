@@ -1,0 +1,6 @@
+# ECHILD database strengths and limitations {#sec-sl .unnumbered}
+
+In this section:
+
+* @sec-sl-strengths
+* @sec-sl-limits

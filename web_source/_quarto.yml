@@ -23,39 +23,44 @@ book:
     - cite.qmd
     - disclaimer.qmd
     
-    - part: echild-overview.qmd
+    - part: echild.qmd
       chapters:
-        - intro.qmd
-        - overview-general.qmd
-        - overview-structure.qmd
+        - echild-introduction.qmd
+        - information-scope.qmd
+        - key-research-purposes.qmd
+        - echild-overview.qmd
+        - database-structure.qmd
         
-    - part: echild-data.qmd
+    - part: data.qmd
       chapters:
+        - attribute-data.qmd
         - data-coverage.qmd
-        - data-hes.qmd
-        - data-other.qmd
-        - data-npd.qmd
-        - data-mother-baby.qmd
+        - hes.qmd
+        - npd.qmd
+        - mother-baby.qmd
 
-    - part: echild-access.qmd
+    - part: access.qmd
       chapters:
-        - access-how.qmd
+        - five-safes.qmd
+        - no-other-linkage.qmd
+        - ethics.qmd
+        - access-conditions.qmd
+        - access-process.qmd
+        - accredited-researcher.qmd
+        - aoc.qmd
         
-    - part: echild-quality.qmd
+    - part: quality.qmd
       chapters:
-        - quality-strengths.qmd
-        - quality-limits.qmd
-        
+        - strengths.qmd
+        - limits.qmd
+    
+    - part: references.qmd
+  
   appendices:
     - appendix-resources.qmd
     - appendix-linkage.qmd
     
-#    - part: echild-appendix.qmd
-#      appendices:
-#        - appendix-resources.qmd
-#        - appendix-linkage.qmd
-#        
-    - references.qmd
+
 
 format:
   html:
