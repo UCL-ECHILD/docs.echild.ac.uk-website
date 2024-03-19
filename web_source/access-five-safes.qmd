@@ -1,0 +1,7 @@
+# Five Safes {#sec-five-safes .unnumbered}
+
+ECHILD is available to researchers through the Office for National Statistics Secure Research Service (ONS SRS) [42], which follows the Five Safes Framework.
+
+| 1. Safe People | 2. Safe Projects | 3. Safe Settings | 4. Safe Outputs | 5. Safe Data |
+|:--------------:||:--------------:||:--------------:||:--------------:||:--------------:|
+| Accredited Researchers | Ethical & benefits public | Secure technology | Non-identifiable outputs | Use de-identified data |
