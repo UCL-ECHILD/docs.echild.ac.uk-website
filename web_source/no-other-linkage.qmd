@@ -1,3 +1,0 @@
-# ECHILD cannot be linked to other data sources without further approval  {#sec-access-no-other-linkage .unnumbered}
-
-Researchers wishing to link additional datasets to ECHILD will need permission from the data controllers i.e., NHSE and DfE. In addition, the ECHILD team will consider the feasibility of such requests on a case-by-case basis and encourage researchers to contact the team for further discussion. 
