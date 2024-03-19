@@ -2,7 +2,7 @@
 
 In this section:
 
-* @sec-access-five-safes
+* @sec-five-safes
 * @sec-access-no-other-linkage
 * @sec-access-ethics
 * @sec-access-access-conditions
