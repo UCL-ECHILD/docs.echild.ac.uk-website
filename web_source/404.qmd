@@ -4,4 +4,4 @@ That's a **404**.
 
 The requested URL was not found on this server.
 
-Try searching ☝️ or go to the [ECHILD docs home page](https://docs.echild.ac.uk).
+You can try searching 🔍 on the [ECHILD docs home page](https://docs.echild.ac.uk).
