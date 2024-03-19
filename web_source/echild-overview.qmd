@@ -1,4 +1,4 @@
-# ECHILD Overview {#sec-echild-overview .unnumbered}
+# ECHILD Overview {#sec-echild-overview}
 
 ## Key features
 
@@ -17,7 +17,7 @@ ECHILD includes information from Hospital Episode Statistics (HES), including mo
 
 ECHILD can only be accessed by approved researchers in the ONS SRS, and researchers are not permitted to try to re-identify individuals. Furthermore, any results of analyses (tables or figures) are checked by ONS staff for potential disclosure risk before they can be exported from the ONS SRS.
 
-Figure 2.2 presents an overview of how the ECHILD database is structured, with further details about the linkage algorithm provided in @sec-linkage and information about the ‘Attribute Data’ for HES and NPD provided in @sec-data-attribute-data.
+An overview of how the ECHILD database is structured can be found in @sec-echild-database-structure, with further details about the linkage algorithm provided in @sec-linkage and information about the ‘Attribute Data’ for HES and NPD provided in @sec-data-attribute-data.
 
 ## Education dataset pseudo-identifier
 
