@@ -1,4 +1,4 @@
-# Information scope {#sec-echild-information-scope .unnumbered}
+# Information scope {#sec-echild-information-scope}
 
 In England, information on a child’s journey through education and social care is recorded in administrative records held by the Department for Education (the National Pupil Database; NPD). NHS England holds information about all NHS hospital contacts (captured in Hospital Episode Statistics; HES). HES records are generated for the purposes of service delivery, e.g., to support financial reimbursement for treatment relating to a hospital stay.
 

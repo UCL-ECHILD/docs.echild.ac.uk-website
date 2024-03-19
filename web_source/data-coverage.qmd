@@ -1,4 +1,4 @@
-# Data coverage (years) {#sec-data-coverage. unnumbered}
+# Data coverage (years) {#sec-data-coverage}
 
 Coverage of the Attribute data currently available within ECHILD (years of follow-up).
 

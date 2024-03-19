@@ -1,4 +1,4 @@
-# Hospital Episode Statistics {#sec-data-hes .unnumbered}
+# Hospital Episode Statistics {#sec-data-hes}
 
 HES contains hospital records for all NHS patients in England, including patient demographics and standardised codes for diagnoses, symptoms and procedures relating to the care they have received [@nhse2023c]. The datasets are collected by NHSE from hospital care providers and curated on an ongoing basis. However, data from other health providers such as General Practitioners (GPs) or pharmacies are not included. HES datasets are collated by financial year and following processing and quality assessment, the finalised datasets are released for secondary use and remain unchanged thereafter [@boyd2017a].
 
@@ -26,9 +26,9 @@ In some instances, admitted patients who require specialised treatment may be tr
 
 | Dataset | Years | Details |
 |:--------|:---|:-----------|
-| Outpatients (OPA) [^1] | 2003 to 2023 | Outpatient appointments at English NHS hospitals and NHS commissioned activity in the independent sector (regardless of whether the appointment was attended or not) [@nhse2023e]. In 2003/04, the OP module was consideredexperimental and did not have complete coverage as not all providers completed data submissions [@nhse2023f]. |
-| Accident & Emergency (A&E) [^2] | 2007 to 2020 | Attendance level dataset collecting information about the treatment received by patients attending A&E Departments, Minor Injury Units and Walk-In Centres, in England. |
-| Emergency Care Data Set (ECDS) [^3] | 2020 to 2023 | In 2018, the A&E dataset was replaced by the ECDS which is now the national dataset for Urgent & Emergency care [@nhse2023g; @nhse2023h]. |
+| Outpatients (OPA)[^1] | 2003 to 2023 | Outpatient appointments at English NHS hospitals and NHS commissioned activity in the independent sector (regardless of whether the appointment was attended or not) [@nhse2023e]. In 2003/04, the OP module was consideredexperimental and did not have complete coverage as not all providers completed data submissions [@nhse2023f]. |
+| Accident & Emergency (A&E)[^2] | 2007 to 2020 | Attendance level dataset collecting information about the treatment received by patients attending A&E Departments, Minor Injury Units and Walk-In Centres, in England. |
+| Emergency Care Data Set (ECDS)[^3] | 2020 to 2023 | In 2018, the A&E dataset was replaced by the ECDS which is now the national dataset for Urgent & Emergency care [@nhse2023g; @nhse2023h]. |
 
 [^1]: Diagnoses are recorded using the International Classification of
     Disease (ICD) version 10 and procedures are recorded using the
@@ -50,8 +50,8 @@ In some instances, admitted patients who require specialised treatment may be tr
 
 | Dataset | Years | Details |
 |:--------|:---|:-----------|
-| Admitted Patient Care (APC) [^4] | 1997 to 2023 | Episode-level dataset of patients admitted for treatment (i.e., requiring the use of a hospital bed), at NHS hospitals in England; includes delivery and birth data, up to 20 diagnostic codes per episode and procedure codes [@nhse2023d]. |
-| Critical Care (CC) [^5] | 2007 to 2023 | Episode-level dataset of patients admitted for treatment and receiving Critical Care (intensive care or high dependency care) at NHS hospitals in England. Treatment in adult designated wards where constant support and monitoring are required to maintain at least one organ (i.e., an Intensive Care or High Dependency Unit) [@nhse2023i].|
+| Admitted Patient Care (APC)[^4] | 1997 to 2023 | Episode-level dataset of patients admitted for treatment (i.e., requiring the use of a hospital bed), at NHS hospitals in England; includes delivery and birth data, up to 20 diagnostic codes per episode and procedure codes [@nhse2023d]. |
+| Critical Care (CC)[^5] | 2007 to 2023 | Episode-level dataset of patients admitted for treatment and receiving Critical Care (intensive care or high dependency care) at NHS hospitals in England. Treatment in adult designated wards where constant support and monitoring are required to maintain at least one organ (i.e., an Intensive Care or High Dependency Unit) [@nhse2023i].|
 
 [^4]: See footnote 1.
 
