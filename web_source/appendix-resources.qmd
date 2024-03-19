@@ -2,21 +2,21 @@
 
 ## Additional resources
 
-1. Department for Education National Pupil Database: Data collection and censuses for schools [53]
-2. National Pupil Database online data dictionary [54]
-3. National Pupil Data User Group [55]
-4. Children’s Social Care User Group [56]
-5. NHSE documentation related to Hospital Episode Statistics [9]
-6. Hospital Episodes Statistics online data dictionary [18]
+(@) Department for Education National Pupil Database: Data collection and censuses for schools [53]
+(@) National Pupil Database online data dictionary [54]
+(@) National Pupil Data User Group [55]
+(@) Children’s Social Care User Group [56]
+(@) NHSE documentation related to Hospital Episode Statistics [9]
+(@) Hospital Episodes Statistics online data dictionary [18]
 
 ## Articles 
 
-7. Data Resource Profile: HES APC [46]
-8. Data Resource: National Pupil Database [6]
-9. Cohort Profile: Children in Need Census [47]
-10. Data Resource Profile: Children Looked After Return [48]
-11. GUILD: GUidance for Information about Linking Data sets [57]
-12. REporting of studies Conducted using Observational Routinely-collected health Data [58]
+(@) Data Resource Profile: HES APC [46]
+(@) Data Resource: National Pupil Database [6]
+(@) Cohort Profile: Children in Need Census [47]
+(@) Data Resource Profile: Children Looked After Return [48]
+(@) GUILD: GUidance for Information about Linking Data sets [57]
+(@) REporting of studies Conducted using Observational Routinely-collected health Data [58]
 
 ## Key ECHILD Publications 
 

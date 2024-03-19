@@ -4,16 +4,33 @@ Researchers will have to demonstrate how their research will benefit the health 
 
 Researchers will be expected to:
 
-1. State their use of ECHILD in any publication/presentation and acknowledge the ECHILD team in publications and reports, including the following acknowledgements/notes where possible: “We would like to acknowledge the contribution of the wider ECHILD Database support and programme management.”
-2. Undertake appropriate Public and Patient Involvement and Engagement (PPIE) activities.
-3. Refer to [ONS guidance](https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/secureresearchservice/gettingyourresearchoutputsapproved) regarding pre-publication, publication and code file clearance. 
-4. Notify and provide details in writing of all publications to UCL 14 days in advance of publication.
-5. Notify and provide draft publications to the Department for Education 14 days in advance of any publication.
-6. Include the following data sharing and funding statements in publications as defined by NHS England, the Department for Education, the ONS and ECHILD Database funders:
-  a) “The ECHILD Database uses data from the Department for Education (DfE). The DfE does not accept responsibility for any inferences or conclusions derived by the authors.”
-  b) “This work uses data provided by patients and collected by the National Health Service as part of their care and support. Source data can also be accessed by researchers by applying to NHS England.”
-  c) “We are grateful to the Office for National Statistics (ONS) for providing the Trusted Research Environment for the ECHILD Database. ONS agrees that the figures and descriptions of results in the attached document may be published. This does not imply ONS' acceptance of the validity of the methods used to obtain these figures, or of any analysis of the results.”
-  d) “The views in this publication do not necessarily reflect the views of UCL.”
-7. Report how data quality issues were addressed. 
-8. Share their code/script for data processing and analysis.
-9. Prepare and send an annual report to the ECHILD team on the benefits of the research undertaken. 
+1. State their use of ECHILD in any publication/presentation and acknowledge the ECHILD team in publications and reports, including the following acknowledgements/notes where possible: *We would like to acknowledge the contribution of the wider ECHILD Database support and programme management.*
+1. Undertake appropriate Public and Patient Involvement and Engagement (PPIE)
+activities.
+1. Refer to 
+[ONS guidance](https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/secureresearchservice/gettingyourresearchoutputsapproved) regarding pre-publication, publication and code file 
+clearance. 
+1. Notify and provide details in writing of all publications to UCL 14 days in 
+advance of publication.
+1. Notify and provide draft publications to the Department for Education 14 
+days in advance of any publication.
+1. Include the following data sharing and funding statements in publications as 
+defined by NHS England, the Department for Education, the ONS and ECHILD 
+Database funders:
+    a) *The ECHILD Database uses data from the Department for Education (DfE). 
+    The DfE does not accept responsibility for any inferences or conclusions 
+    derived by the authors.*
+    a) *This work uses data provided by patients and collected by the National 
+    Health Service as part of their care and support. Source data can also be 
+    accessed by researchers by applying to NHS England.*
+    a) *We are grateful to the Office for National Statistics (ONS) for 
+    providing the Trusted Research Environment for the ECHILD Database. ONS 
+    agrees that the figures and descriptions of results in the attached 
+    document may be published. This does not imply ONS' acceptance of the 
+    validity of the methods used to obtain these figures, or of any analysis of 
+    the results.*
+    a) *The views in this publication do not necessarily reflect the views of 
+    UCL.*
+1. Report how data quality issues were addressed. 
+1. Share their code/script for data processing and analysis.
+1. Prepare and send an annual report to the ECHILD team on the benefits of the research undertaken. 
