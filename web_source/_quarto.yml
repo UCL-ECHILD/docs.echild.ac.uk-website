@@ -23,7 +23,7 @@ book:
     - cite.qmd
     - disclaimer.qmd
     
-    - part: echild.qmd
+    - part: "ECHILD"
       chapters:
         - echild-introduction.qmd
         - information-scope.qmd
@@ -31,7 +31,7 @@ book:
         - echild-overview.qmd
         - database-structure.qmd
         
-    - part: data.qmd
+    - part: "Data"
       chapters:
         - attribute-data.qmd
         - data-coverage.qmd
@@ -39,7 +39,7 @@ book:
         - npd.qmd
         - mother-baby.qmd
 
-    - part: access.qmd
+    - part: "Accessing ECHILD"
       chapters:
         - five-safes.qmd
         - no-other-linkage.qmd
@@ -49,14 +49,12 @@ book:
         - accredited-researcher.qmd
         - aoc.qmd
         
-    - part: quality.qmd
+    - part: "Strengths & Limitations"
       chapters:
         - strengths.qmd
         - limits.qmd
     
-    - part: "References"
-      chapters:
-        - references.qmd
+    - references.qmd
   
   appendices:
     - appendix-resources.qmd
