@@ -21,7 +21,7 @@
 ## Key ECHILD Publications 
 
 | Author  | Year | Title | Link |
-|:--------|----:|:---------------------------------------------------------------|----:|
+|:---------|--:|:---------------------------------|--:|
 | Blackburn, R et al. | 2022 | COVID-19-related school closures and patterns of hospital admissions with stress-related presentations in secondary school-aged adolescents: weekly time series.|[59]|
 |Nguyen V G et al. |2022|SEN support from the start of school and its impact on unplanned hospital utilisation in children with cleft lip and palate: a demonstration target trial emulation protocol using ECHILD.|[60]|
 |Blackburn, R et al. |2021|Hospital admissions for stress-related presentations among school-aged adolescents during term time versus holidays in England: weekly time series and retrospective cross-sectional analysis.|[61]|
