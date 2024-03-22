@@ -19,8 +19,9 @@ book:
   chapters:
     - index.qmd
     - acknowledgements.qmd
-    - acronyms.qmd
     - cite.qmd
+    - acronyms.qmd
+    - versions.qmd
     - disclaimer.qmd
     
     - part: "ECHILD"

@@ -1,9 +1,3 @@
 # Disclaimer {.unnumbered}
 
 Although every effort has been made to provide complete and accurate information at the time of publication (June 2023), the authors make no warranties, express or implied, or representations as to the accuracy of content in this guide. The authors assume no liability or responsibility for any error or omissions in the information contained in the guide.
-
-| Version | Detail |
-|:---|:-----------|
-| This web version | Education & Child Health Insights from Linked Data (ECHILD): An Introductory Guide for Researchers (Web version); published March 2024; based on version 2.0 |
-| 2.0 | Education and Child Health Insights from Linked Data (ECHILD): An Introductory Guide for Researchers; published 22 June 2023 |
-| 1.1.2 | The Education and Child Health Insights from Linked Data (ECHILD) Database: An Introductory Guide for Researchers; published 5 March 2021 |
