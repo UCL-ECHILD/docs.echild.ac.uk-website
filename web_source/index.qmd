@@ -1,9 +1,22 @@
 # Welcome {.unnumbered}
 
-Welcome to the ECHILD user guide. If you have any feedback or spot any errors, please contact us at [ich.echild\@ucl.ac.uk](mailto:ich.echild@ucl.ac.uk){.email}.
+Welcome to the ECHILD User Guide. If you have any feedback or spot any errors, 
+you can use the "Report an issue" link present on each page.
 
-The ECHILD research database joins together existing health, education and social care information for all children in England for the first time.
+The ECHILD research database joins together existing health, education and 
+social care information for all children in England for the first time.
 
-The ECHILD project is led by [University College London](https://www.ucl.ac.uk/child-health/echild) in collaboration with the [London School of Hygiene & Tropical Medicine](https://www.lshtm.ac.uk/) and the [Institute for Fiscal Studies](https://www.ifs.org.uk/), in partnership with the [Department of Health and Social Care](https://www.gov.uk/government/organisations/department-of-health-and-social-care) and the [Department for Education](https://www.gov.uk/government/organisations/department-for-education), working with [NHS England](https://www.england.nhs.uk/) and the [Office for National Statistics](https://www.ons.gov.uk/).
+The ECHILD project is led by 
+[University College London](https://www.ucl.ac.uk) 
+[Great Ormond Street Institute of Child Health](https://www.ucl.ac.uk/child-health) 
+in collaboration with the 
+[London School of Hygiene & Tropical Medicine](https://www.lshtm.ac.uk/) and the 
+[Institute for Fiscal Studies](https://www.ifs.org.uk/), in partnership with the 
+[Department of Health and Social Care](https://www.gov.uk/government/organisations/department-of-health-and-social-care) 
+and the 
+[Department for Education](https://www.gov.uk/government/organisations/department-for-education), 
+working with 
+[NHS England](https://www.england.nhs.uk/) and the 
+[Office for National Statistics](https://www.ons.gov.uk/).
 
 ![](static/echild-intro.png){fig-alt="An image with the ECHILD logo and the words Education & Child Health Insights from Linked Data: An introductory guide for researchers."}

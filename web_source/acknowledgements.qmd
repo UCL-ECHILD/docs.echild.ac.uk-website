@@ -1,48 +1,70 @@
 # Acknowledgements {.unnumbered}
 
-The ECHILD project is in partnership with NHS England and the Department for Education (DfE) and we thank the following individuals for their valuable contributions to the project: Jodie Taylor-Brown, Ian Goodwin, Garry Coleman, Richard Caulton, Catherine Day (NHS England), and Gary Connell, Harriet Fearn, Kirsty Knox (DfE). We are also grateful to Bill South and Alan Cotterill from the Office for National Statistics (ONS) for providing the Trusted Research Environment for ECHILD.
+The ECHILD project is in partnership with NHS England and the Department for 
+Education (DfE) and we thank the following individuals for their valuable 
+contributions to the project: Jodie Taylor-Brown, Ian Goodwin, Garry Coleman, 
+Richard Caulton, Catherine Day (NHS England), and Gary Connell, Harriet Fearn, 
+Kirsty Knox (DfE). We are also grateful to Bill South and Alan Cotterill from 
+the Office for National Statistics (ONS) for providing the Trustworthy Research 
+Environment for ECHILD.
 
-We thank all the children, young people, parents and carers who contributed to the ECHILD project. We also gratefully acknowledge all children and families whose de-identified data are used in this research.
+We thank all the children, young people, parents and carers who contributed to 
+the ECHILD project. We also gratefully acknowledge all children and families 
+whose de-identified data form this research database.
 
-This report describes the ECHILD database which uses data from the DfE, NHS England and ONS. The DfE, NHS England and ONS do not accept responsibility for any inferences or conclusions derived by the authors.
+This user guide describes the ECHILD database which uses data from the DfE, 
+NHS England and ONS. The DfE, NHS England and ONS do not accept responsibility 
+for any inferences or conclusions derived by the authors.
 
-This research benefits from and contributes to the NIHR Children and Families Policy Research Unit but was not commissioned by the National Institute for Health Research (NIHR) Policy Research Programme. The views expressed are those of the authors and not necessarily those of the NIHR or the Department of Health and Social Care.
+This research benefits from and contributes to research conducted by the 
+[NIHR Children and Families Policy Research Unit](https://www.ucl.ac.uk/children-policy-research) 
+but was not commissioned by the National Institute for Health Research (NIHR) 
+Policy Research Programme. The views expressed herein are those of the authors 
+and not necessarily those of the NIHR or the Department of Health and Social 
+Care.
 
 # Authors
 
 ## UCL Great Ormond Street Institute of Child Health
 
--   Prof Katie Harron
--   Dr Louise Mc Grath-Lone
+-   Dr Farzan Ramzan
+-   Dr Louise Mc Grath-Lone (now at UCL Institute of Education)
 -   Dr Ruth Blackburn
 -   Prof Ruth Gilbert
--   Dr Farzan Ramzan
+-   Dr Matthew Jay
+-   Mr Matthew Lilliman
 -   Dr Milagros Ruiz Nishiki
 -   Mr Tony Stone
--   Mr Matthew Lilliman
--   Dr Nicolás Libuy
--   Dr Matthew Jay
--   Dr Pia Hardelid
--   Dr Ania Zylbersztejn
--   Dr Kate Lewis
+-   Prof Katie Harron
 
-## UCL Institute for Fiscal Studies
+# Contributors
+
+## UCL Great Ormond Street Institute of Child Health
+
+-   Prof Pia Hardelid
+-   Dr Kate Lewis
+-   Dr Nicolás Libuy (now at UCL Institute of Education)
+-   Dr Ania Zylbersztejn
+
+## Institute for Fiscal Studies
 
 -   Ms Christine Farquharson
 -   Mr Imran Tahir
 
-This web version was compiled by Tony Stone, Matthew Jay and Farzan Ramzan
-
 # Funding
 
-This work is supported by ADR UK (Administrative Data Research UK), an Economic and Social Research Council (part of UK Research and Innovation) programme (ES/V000977/1, ES/X000427/1 and ES/X003663/1).
+This work is funded via Administrative Data Research UK (ADR UK), an investment 
+by the Economic and Social Research Council (part of UK Research and 
+Innovation), through the following grants:
+
+- [ES/V000977/1](https://gtr.ukri.org/projects?ref=ES/X003663/1)
+- [ES/X000427/1](https://gtr.ukri.org/projects?ref=ES/X000427/1)
+- [ES/X003663/1](https://gtr.ukri.org/projects?ref=ES/X003663/1).
 
 # Contact details
 
 For further information, comments or queries about this publication:
 
-|              Website              |                            Email                            |                    Twitter                     |
-|:----------------------:|:----------------------:|:----------------------:|
-| [www.ucl.ac.uk/child-health/echild](https://www.ucl.ac.uk/child-health/echild) | [ich.echild\@ucl.ac.uk](mailto:ich.echild@ucl.ac.uk){.email} | [\@ucl_echild](https://twitter.com/ucl_echild) |
-
-User Guide v2.0 (Updated June 2023; this web version March 2024)
+| Website | Email | X (formerly Twitter) |
+|:---:|:---:|:---:|
+| [www.echild.ac.uk](https://www.echild.ac.uk) | [ich.echild\@ucl.ac.uk](mailto:ich.echild@ucl.ac.uk){.email} | [\@ucl_echild](https://twitter.com/ucl_echild) |

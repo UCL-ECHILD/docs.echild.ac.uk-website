@@ -8,7 +8,11 @@ project:
 book:
   title: "ECHILD documentation"
   reader-mode: true
-
+  page-footer: >
+    The content of this site is licensed under the
+    [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/),
+    except example source code which is provided under the
+    [MIT license](https://github.com/UCL-ECHILD/docs.echild.ac.uk-website/blob/main/LICENSE.md).
   # cover-image: cover.jpg
   favicon: favicon.ico
   site-url: https://docs.echild.ac.uk/
@@ -19,8 +23,9 @@ book:
   chapters:
     - index.qmd
     - acknowledgements.qmd
-    - acronyms.qmd
     - cite.qmd
+    - acronyms.qmd
+    - versions.qmd
     - disclaimer.qmd
     
     - part: "ECHILD"
@@ -72,3 +77,6 @@ format:
 bibliography: references.bib
 csl: elsevier-vancouver.csl
 link-citations: true
+nocite: |
+  @*
+  

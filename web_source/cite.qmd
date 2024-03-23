@@ -4,8 +4,7 @@ When citing this User Guide, you should use the following:
 
 ``` {.html .code-overflow-wrap}
 
-Ramzan F, Mc Grath-Lone L, Gilbert R, Blackburn R, Ruiz Nishiki M, Lilliman M, Stone T, Jay M, Harron K.
-Education and Child Health Insights from Linked Data (ECHILD): an introductory guide for researchers. 2023, UCL.
+Ramzan F, Mc Grath-Lone L, Gilbert R, Blackburn R, Ruiz Nishiki M, Lilliman M, Stone T, Jay M, Harron K. Education and Child Health Insights from Linked Data (ECHILD): an introductory guide for researchers. UCL (University College London) 2023. doi: 10.5281/zenodo.10854355
 ```
 
 BibTex reference:
@@ -16,7 +15,22 @@ BibTex reference:
   author = {Ramzan, F. and McGrath-Lone, L. and Gilbert, R. and Blackburn, R. and Ruiz Nishiki, M. and Lilliman, M. and Stone, T. and Jay, M. and Harron, K.},
   title = {Education and Child Health Insights from Linked Data (ECHILD): an introductory guide for researchers},
   date = {2023},
+  doi = {10.5281/zenodo.10854355},
   url = {https://docs.echild.ac.uk/},
-  publisher = {UCL}
+  publisher = {UCL (University College London)}
 }
 ```
+
+
+::: {.callout-note}
+The DOI provided in the above snippets will resolve to the most recent release 
+of this ECHILD User Guide available at the time that the DOI is **accessed**. 
+
+If you wish to link to the current release of the ECHILD User Guide at the 
+current time, you should use the DOI shown here : 
+[![DOI](https://zenodo.org/badge/748342316.svg)](https://zenodo.org/badge/latestdoi/748342316)
+
+To find the DOI of a previous release, visit the ECHILD User Guide's
+[Zenodo record](https://zenodo.org/records/10854355) and select the applicable 
+version.
+:::

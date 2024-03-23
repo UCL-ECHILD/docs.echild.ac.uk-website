@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+title: "ECHILD User Guide (documentation) website source code"
+type: software
+authors:
+  - given-names: Farzan
+    family-names: Ramzan
+    affiliation: "University College London (UCL)"
+    orcid: "https://orcid.org/0000-0002-6861-2324"
+  - given-names: Louise
+    family-names: Mc Grath-Lone
+    affiliation: "University College London (UCL)"
+    orcid: "https://orcid.org/0000-0003-0867-6673"
+  - given-names: Ruth
+    family-names: Blackburn
+    affiliation: "University College London (UCL)"
+    orcid: "https://orcid.org/0000-0002-3491-7381"
+  - given-names: Ruth
+    family-names: Gilbert
+    affiliation: "University College London (UCL)"
+    orcid: "https://orcid.org/0000-0001-9347-2709"
+  - given-names: Matthew
+    family-names: Jay
+    affiliation: "University College London (UCL)"
+    orcid: "https://orcid.org/0000-0003-2481-7755"
+  - given-names: Matthew
+    family-names: Lilliman
+    affiliation: "University College London (UCL)"
+  - given-names: Milagros
+    family-names: Ruiz Nishiki
+    affiliation: "University College London (UCL)"
+    orcid: "https://orcid.org/0000-0001-7492-9873"
+  - given-names: Tony
+    family-names: Stone
+    affiliation: "University College London (UCL) and University of Sheffield"
+    affiliation: "University College London (UCL)"
+    affiliation: "University of Sheffield"
+    orcid: "https://orcid.org/0000-0002-0167-3800"
+  - given-names: Katie
+    family-names: Harron
+    affiliation: "University College London (UCL)"
+    orcid: "https://orcid.org/0000-0002-3418-2856"
+identifiers:
+  - doi: 10.5281/zenodo.123456    
+abstract: > 
+  This source code contains both the content and instructions for 
+  the rendering of the ECHILD User Guide (documentation) website.
+keywords:
+  - ECHILD
+  - "research database"
+  - "user guide"
+repository-code: "https://github.com/UCL-ECHILD/docs.echild.ac.uk-website"
+url: "https://docs.echild.ac.uk"
+license: MIT
