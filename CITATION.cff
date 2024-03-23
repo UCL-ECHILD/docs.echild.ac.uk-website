@@ -31,9 +31,9 @@ authors:
     orcid: "https://orcid.org/0000-0001-7492-9873"
   - given-names: Tony
     family-names: Stone
-    affiliation: "University College London (UCL) and University of Sheffield"
     affiliation: "University College London (UCL)"
     affiliation: "University of Sheffield"
+    affiliation: "University College London (UCL) and University of Sheffield"
     orcid: "https://orcid.org/0000-0002-0167-3800"
   - given-names: Katie
     family-names: Harron
