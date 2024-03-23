@@ -1,6 +1,20 @@
-# MIT License
+# License
 
-Copyright (c) 2023 University College London
+The textual content of this project is licensed under the 
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/), 
+example code 
+within the text and the underlying source code (and its documentation) used to 
+format and display said content is licensed under the MIT license. Images are 
+the copyright works of their respective copyright owners or otherwise declared.
+
+
+--------------------------------------------------------------------------------
+
+## MIT License
+
+Copyright (c) 2021-2024 the authors (Farzan Ramzan, Louise Mc Grath-Lone, 
+Ruth Blackburn, Ruth Gilbert, Matthew Jay, Matthew Lilliman, 
+Milagros Ruiz Nishiki, Tony Stone, Katie Harron).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
