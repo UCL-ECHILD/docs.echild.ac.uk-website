@@ -74,7 +74,7 @@ format:
     code-link: true
     include-in-header:
       - text: |
-          <link href="https://doc.echild.ac.uk/favicon.ico?v=2" rel="icon">
+          <link href="https://docs.echild.ac.uk/favicon.ico?v=2" rel="icon">
     
 bibliography: references.bib
 csl: elsevier-vancouver.csl
