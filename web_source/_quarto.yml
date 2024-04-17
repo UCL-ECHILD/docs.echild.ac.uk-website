@@ -14,6 +14,7 @@ book:
     except example source code which is provided under the
     [MIT license](https://github.com/UCL-ECHILD/docs.echild.ac.uk-website/blob/main/LICENSE.md).
   # cover-image: cover.jpg
+  favicon: favicon.ico
   site-url: https://docs.echild.ac.uk/
   repo-url: https://github.com/UCL-ECHILD/docs.echild.ac.uk-website
   repo-subdir: web_source/
@@ -72,9 +73,6 @@ format:
       - cosmo
     code-copy: true
     code-link: true
-    include-in-header:
-      - text: |
-          <link href="https://docs.echild.ac.uk/favicon.ico?v=2" rel="icon">
     
 bibliography: references.bib
 csl: elsevier-vancouver.csl
