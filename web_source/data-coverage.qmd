@@ -14,7 +14,7 @@ Coverage of the Attribute data currently available within ECHILD (years of follo
 | f   | The Early Years Census included 3- to 4-year-olds between 2007/08 and 2012/13. From 2013/14 it includes 2- to 4-year-olds.                                                      |
 | g   | Key Stage 3 assessments ceased after 2012/13.                                                                                                                                   |
 | h   | Partial coverage of population as between 01/04/1992 & 31/03/2003, CLA data were only collected for a one-third sample (i.e., children with a day of birth divisible by 3).     |
-| i   | Linkage between Education & Social Care modules of NPD began in April 2006 for CLA and April 2009 for CIN (partially complete until 2012, mainly applies to under 5-year-olds). |
+| i   | Linkage between Education & Social Care modules of NPD began 1 April 2005 for CLA and 1 October 2009 for CIN (partially complete until 2012, mainly applies to under 5-year-olds). |
 | j   | Not yet ingested to ONS SRS.                                                                                                                                                    |
 | k   | Not collected to help reduce the burden on educational and care settings during the coronavirus (COVID-19) pandemic.                                                            |
 | l   | Partial coverage as between the 2002/3 and 2005/6 academic years, data only on a 10% sample of children.                                                                        |
