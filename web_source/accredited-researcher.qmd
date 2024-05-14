@@ -1,4 +1,4 @@
-# Accredited research status {#sec-access-accredited-researcher}
+# Accredited researcher status {#sec-access-accredited-researcher}
 
 To access ECHILD researchers must become fully 
 [Accredited Researchers](https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/secureresearchservice/becomeanaccreditedresearcher) 
