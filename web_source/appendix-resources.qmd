@@ -2,33 +2,33 @@
 
 ## Additional resources
 
-(@) Department for Education National Pupil Database: Data collection and censuses for schools [53]
-(@) National Pupil Database online data dictionary [54]
-(@) National Pupil Data User Group [55]
-(@) Children’s Social Care User Group [56]
-(@) NHSE documentation related to Hospital Episode Statistics [9]
-(@) Hospital Episodes Statistics online data dictionary [18]
+(@) Department for Education National Pupil Database: Data collection and censuses for schools [@education2024e]
+(@) National Pupil Database online data dictionary [@education2023c]
+(@) National Pupil Data User Group [@bristol2023a]
+(@) Children’s Social Care User Group [@cscdug2023]
+(@) NHSE documentation related to Hospital Episode Statistics [@nhse2023b]
+(@) Hospital Episodes Statistics online data dictionary [@nhse2023e]
 
 ## Articles 
 
-(@) Data Resource Profile: HES APC [46]
-(@) Data Resource: National Pupil Database [6]
-(@) Cohort Profile: Children in Need Census [47]
-(@) Data Resource Profile: Children Looked After Return [48]
-(@) GUILD: GUidance for Information about Linking Data sets [57]
-(@) REporting of studies Conducted using Observational Routinely-collected health Data [58]
+(@) Data Resource Profile: The Education and Child Health Insights from Linked Data (ECHILD) Database [@mcgrathlone2021a]
+(@) Data Resource Profile: HES APC [@herbert2017a]
+(@) Data Resource: National Pupil Database [@jay2019a]
+(@) Cohort Profile: Children in Need Census [@emmott2019a]
+(@) Data Resource Profile: Children Looked After Return [@mcgrathlone2016b]
+(@) GUILD: GUidance for Information about Linking Data sets [@gilbert2017a]
+(@) REporting of studies Conducted using Observational Routinely-collected health Data [@benchimol2015a]
 
 ## Key ECHILD Publications 
 
 | Author  | Year | Title | Link |
 |:---------|--:|:---------------------------------|--:|
-| Blackburn, R et al. | 2022 | COVID-19-related school closures and patterns of hospital admissions with stress-related presentations in secondary school-aged adolescents: weekly time series.|[59]|
-|Nguyen V G et al. |2022|SEN support from the start of school and its impact on unplanned hospital utilisation in children with cleft lip and palate: a demonstration target trial emulation protocol using ECHILD.|[60]|
-|Blackburn, R et al. |2021|Hospital admissions for stress-related presentations among school-aged adolescents during term time versus holidays in England: weekly time series and retrospective cross-sectional analysis.|[61]|
-|Libuy, N et al.|2022|Gestational age at birth, chronic conditions and school outcomes: a population-based data linkage study of children born in England.|[62]|
-|Mc Grath-Lone L et al. |2022| Changes in adolescents’ planned hospital care during the COVID-19 pandemic: analysis of linked administrative data.|[63]|
-|Etoori, D et al. |2021| Deficits in hospital care among clinically vulnerable children aged 0 to 4 years during the COVID-19 pandemic.|[64]|
-|Mc Grath-Lone L et al.|2021| Ethnic bias in data linkage.|[65]|
-|Mc Grath-Lone L et al. |2021| Data Resource Profile: The Education and Child Health Insights from Linked Data (ECHILD) Database.|[4]|
-|Mc Grath-Lone L et al. |2022| What makes administrative data research-ready? A systematic review and thematic analysis of published literature.|[66]|
-|Libuy, N., et al. |2021| Linking education and hospital data in England: linkage process and quality.|[52]|
+| Blackburn, R et al. | 2022 | COVID-19-related school closures and patterns of hospital admissions with stress-related presentations in secondary school-aged adolescents: weekly time series.|[@blackburn2022a]|
+|Nguyen V G et al. |2022|SEN support from the start of school and its impact on unplanned hospital utilisation in children with cleft lip and palate: a demonstration target trial emulation protocol using ECHILD.|[@nguyen2022a]|
+|Blackburn, R et al. |2021|Hospital admissions for stress-related presentations among school-aged adolescents during term time versus holidays in England: weekly time series and retrospective cross-sectional analysis.|[@blackburn2021a]|
+|Libuy, N et al.|2022|Gestational age at birth, chronic conditions and school outcomes: a population-based data linkage study of children born in England.|[@libuy2022a]|
+|Mc Grath-Lone L et al. |2022| Changes in adolescents’ planned hospital care during the COVID-19 pandemic: analysis of linked administrative data.|[@mcgrathlone2022a]|
+|Etoori, D et al. |2021| Reductions in hospital care among clinically vulnerable children aged 0–4 years during the COVID-19 pandemic.|[@etoori2021a]|
+|Mc Grath-Lone L et al.|2021| Ethnic bias in data linkage.|[@mcgrathlone2021b]|
+|Mc Grath-Lone L et al. |2022| What makes administrative data "research-ready"? A systematic review and thematic analysis of published literature.|[@mcgrathlone2022b]|
+|Libuy, N., et al. |2021| Linking education and hospital data in England: linkage process and quality.|[@libuy2021a]|

@@ -10,8 +10,8 @@ All children and young people in England who were born between 01/09/1984 to dat
 
 ## Comprises well-documented administrative datasets 
 
-The constituent datasets within ECHILD are well-documented by data owners[9, 45] and the research community.[6, 10, 46-49] For example, details about how information in the datasets is collected, what variables they contain and how coding has changed over time are readily available to researchers. Appendix 1 highlights some key resources for researchers.
+The constituent datasets within ECHILD are well-documented by data owners and the research community. For example, details about how information in the datasets is collected, what variables they contain and how coding has changed over time are readily available to researchers. See references in previous chapters and @sec-resources, which highlights some key resources for researchers.
 
 ## Provides timely access to administrative data for research purposes 
 
-Negotiating access with multiple administrative data providers is time-consuming and resource intensive, particularly when it involves the transfer of identifiable information for linkage purposes.[50] Governance arrangements for the re-use of the de-identified ECHILD data for research purposes via the ONS SRS are now established. This will avoid the need for repeated transfer and use of identifiable information to link HES and NPD data for individual research projects. 
+Negotiating access with multiple administrative data providers is time-consuming and resource intensive, particularly when it involves the transfer of identifiable information for linkage purposes [@morris2018a]. Governance arrangements for the re-use of the de-identified ECHILD data for research purposes via the ONS SRS are now established. This will avoid the need for repeated transfer and use of identifiable information to link HES and NPD data for individual research projects. 

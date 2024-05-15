@@ -7,4 +7,4 @@ organisation meets the required physical and system security standard to
 directly allow access to the SRS from your organisation or your home office 
 space. All AOC agreements must be approved by the ONS and it is the 
 responsibility of the researcher to check if an institutional AOC is in place 
-before applying for access to ECHILD.[44]
+before applying for access to ECHILD.
