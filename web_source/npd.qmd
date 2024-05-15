@@ -1,6 +1,18 @@
 # National Pupil Database {#sec-data-npd}
 
-The NPD was formally established in 2002 based on including a pupil census record for every child in state education [@jay2019a; @education2023c]. Prior to 2002, key stage test results were recorded from 1995/6 (for KS2) which is linkable to the pupil census. The  NPD database is curated by the Department for Education (DfE). The NPD is made up of modules of data that are  collected by the DfE from schools, local authorities and exam-awarding organisations on an ongoing and statutory  basis. Information collected as part of NPD is used for funding purposes, policy-making, generating statistics and research. The NPD modules included in ECHILD can be broadly grouped as pupil characteristics, educational  outcomes and social care.  NPD does not include information on pupils within private schools, or those being home-schooled, except in relation  to public examinations (key stage 4 and 5). Approximately 7% of children [[@jay2019a] are enrolled in a private school each  year with up to 11% ever enrolled in a private school during their school career [@green2017a].
+The NPD was formally established in 2002 based on including a pupil census record for every 
+child in state education [@jay2019a; @education2023c]. Prior to 2002, key stage test 
+results were recorded from 1995/6 (for KS2) which is linkable to the pupil census. The NPD 
+database is curated by the Department for Education (DfE). The NPD is made up of modules of 
+data that are  collected by the DfE from schools, local authorities and exam-awarding 
+organisations on an ongoing and statutory  basis. Information collected as part of NPD is 
+used for funding purposes, policy-making, generating statistics and research. The NPD 
+modules included in ECHILD can be broadly grouped as pupil characteristics, educational 
+outcomes and social care.  NPD does not include information on pupils within private 
+schools, or those being home-schooled, except in relation  to public examinations 
+(key stage 4 and 5). Approximately 7% of children [[@jay2019a] are enrolled in a private 
+school each  year with up to 11% ever enrolled in a private school during their school 
+career [@green2017a].
 
 ## Attribute data: Pupil Characteristics 
 
@@ -11,11 +23,21 @@ The NPD was formally established in 2002 based on including a pupil census recor
 | Pupil Referral Unit Census (PRU) [^2] | 2009 to 2013 | Information on pupils enrolled in PRUs (a form of school for pupils unable to attend mainstream schools due to factors such as behavioural issues). Data collected annually until January 2013. From Spring 2013/14, this data is collected as part of the School Census. |
 | Alternative Provision Census (AP) [^2] | 2007 to 2022 | An annual census (collected in January) of pupils who are educated in alternative provision placements [@education2024f]. Provision must be arranged by the local authority or school otherwise the child would not receive suitable education e.g., due to illness or if they received a fixed-term exclusion. |
 
-[^1]: After KS4, the School Census Pupil Level module only contains information for young people who continue in full-time post-16 education in schools or colleges. 
+[^1]: After KS4, the School Census Pupil Level module only contains information for young 
+people who continue in full-time post-16 education in schools or colleges. 
 
-[^2]: The census modules of the NPD are recorded at enrolment level. Children who are registered in more than one educational setting will have multiple records in a census. The census modules of the NPD contain information such as age, gender, ethnicity, special educational needs (SEN) support, first language and free school meals (FSM) eligibility. 
+[^2]: The census modules of the NPD are recorded at enrolment level. Children who are 
+registered in more than one educational setting will have multiple records in a census. 
+The census modules of the NPD contain information such as age, gender, ethnicity, special 
+educational needs (SEN) support, first language and free school meals (FSM) eligibility. 
 
-[^3]: The Early Years Census only collects information for children who are taking up a government-funded place [@education2024a]. All 3- and 4-year-olds in England are entitled to government funding; however, funding for 2-year olds is only for specific groups of children, such as those who are in care, who have an education, health and care plan, or whose parents are in receipt of certain benefits. Early years settings that do not have any children who receive direct government funding are not required to submit information via the Early Years Census.
+[^3]: The Early Years Census only collects information for children who are taking up a 
+government-funded place [@education2024a]. All 3- and 4-year-olds in England are entitled 
+to government funding; however, funding for 2-year olds is only for specific groups of 
+children, such as those who are in care, who have an education, health and care plan, or 
+whose parents are in receipt of certain benefits. Early years settings that do not have 
+any children who receive direct government funding are not required to submit information 
+via the Early Years Census.
 
 ## Attribute data: School Characteristics 
 
@@ -40,13 +62,32 @@ The NPD was formally established in 2002 based on including a pupil census recor
 
 
 
-[^4]: Attainment data are collected for all pupils when they complete nationally recognised assessments at KS4 and KS5, including those in private schools and further education state sector colleges [@education2015a].
+[^4]: Attainment data are collected for all pupils when they complete nationally 
+recognised assessments at KS4 and KS5, including those in private schools and further 
+education state sector colleges [@education2015a].
 
-[^5]: Absence data are not recorded for boarding pupils [@education2023d]. Schools provide information about the reasons for absences (e.g., due to illness, medical appointments, etc) though approximately 1% of schools are able only to provide overall authorised and unauthorised absences [@education2023d]. Absence data were first collected for 4-year-olds in the 2012/13 academic year. In 2012/13, the period of collection of absence data was also extended to the end of the summer term. In previous years, absence data were only collected for the first half of the summer term. Absence data include ‘persistently absent’ indicators (the threshold for which varies by academic year, though users can specify their own thresholds).
+[^5]: Absence data are not recorded for boarding pupils [@education2023d]. Schools 
+provide information about the reasons for absences (e.g., due to illness, medical 
+appointments, etc) though approximately 1% of schools are able only to provide overall 
+authorised and unauthorised absences [@education2023d]. Absence data were first 
+collected for 4-year-olds in the 2012/13 academic year. In 2012/13, the period of 
+collection of absence data was also extended to the end of the summer term. In previous 
+years, absence data were only collected for the first half of the summer term. Absence 
+data include ‘persistently absent’ indicators (the threshold for which varies by 
+academic year, though users can specify their own thresholds).
 
-[^6]: Compared to other modules of the NPD, there is a lag in data availability related to exclusions. Data are made available in the summer for the preceding academic year; for example, data for the academic year 2017/18 is released in summer 2019 [@education2017a].
+[^6]: Compared to other modules of the NPD, there is a lag in data availability related 
+to exclusions. Data are made available in the summer for the preceding academic year; 
+for example, data for the academic year 2017/18 is released in summer 2019 
+[@education2017a].
 
-[^7]: Unlike the School Census Pupil Level module (which only contains information for young people who continue in full-time education post-16), NCCIS includes information about the post-16 activities of all young people aged 16 to 19 years (or aged 16 to 24 years for young people with a current Education, Health and Care (EHC) plan) [@education2023a]. This activity information is collected by local authorities and used by the DfE to estimate Not in Education, Employment or Training (NEET) rates for young people in England.
+[^7]: Unlike the School Census Pupil Level module (which only contains information for 
+young people who continue in full-time education post-16), NCCIS includes information 
+about the post-16 activities of all young people aged 16 to 19 years (or aged 16 to 
+24 years for young people with a current Education, Health and Care (EHC) plan) 
+[@education2023a]. This activity information is collected by local authorities and used 
+by the DfE to estimate Not in Education, Employment or Training (NEET) rates for young 
+people in England.
 
 ## Attribute data: Social Care 
 
@@ -55,13 +96,37 @@ The NPD was formally established in 2002 based on including a pupil census recor
 | Children Looked After Return (CLA) | 1991 to 2021 | Has information on children looked after by a local authority in England for a period of at least 24 hours [@mcgrathlone2016b; @education2024c; @education2024i]. The data include information on date and type of placement, use of respite care, and exiting from care, including through adoption. Does not include information on informal fostering arrangements. |
 | Children in Need Census (CIN) | 2008 to 2022 | Has information covering all children who are referred to children’s social care services, including information on whether they were assessed and found to be in need [@emmott2019a; @education2024h; @education2023e]. The CIN census also contains information on children who are subject to a Child Protection Plan (CPP). |
 
-The CLA and CIN modules of the NPD contain two different identifiers. The first is an encrypted version of the identifier assigned by the local authority (child ID) that allows social care records for the same individual to be linked over time. However, this identifier is local authority specific and so it is not possible - using this identifier - to link records for the same individual across different local authorities [@emmott2019a; @mcgrathlone2016b].
+The CLA and CIN modules of the NPD contain two different identifiers. The first is an 
+encrypted version of the identifier assigned by the local authority (child ID) that 
+allows social care records for the same individual to be linked over time. However, 
+this identifier is local authority specific and so it is not possible - using this 
+identifier - to link records for the same individual across different local 
+authorities [@emmott2019a; @mcgrathlone2016b].
 
-The second is the aPMR, based on Unique Pupil Numbers (UPNs) where available. UPNs have been returned to DfE by local authorities in the CLA module from 1 April 2005 and in the CIN module from 1 October 2008 (i.e., from when the CIN census began). Where a UPN is returned, the aPMR is available, enabling linkage to the NPD education records. For data before April 2005, it is not possible to link education and the CLA datasets. **NOTE:** It is not possible to link social care and education records for children who were only in contact with children’s social care services before their UPN was assigned (i.e., for most children who were a child in need or looked after before school age). Previous research has shown that 20% of children who are ever looked after during childhood are only looked after before age 5 [@mcgrathlone2022a].
+The second is the aPMR, based on Unique Pupil Numbers (UPNs) where available. UPNs 
+have been returned to DfE by local authorities in the CLA module from 1 April 2005 
+and in the CIN module from 1 October 2008 (i.e., from when the CIN census began). 
+Where a UPN is returned, the aPMR is available, enabling linkage to the NPD education 
+records. For data before April 2005, it is not possible to link education and the CLA 
+datasets. **NOTE:** It is not possible to link social care and education records for 
+children who were only in contact with children’s social care services before their 
+UPN was assigned (i.e., for most children who were a child in need or looked after 
+before school age). Previous research has shown that 20% of children who are ever 
+looked after during childhood are only looked after before age 5 [@mcgrathlone2022a].
 
 ## Individualised Learner Record 
-Training providers within the Further Education (FE) and skills sector in England use the ‘Individualised Learner Record’ (ILR) to collect information about each of the learners in their sector, the learning undertaken, and the learning outcome, e.g., sectors include Adult skills, Community Learning, Skills Bootcamps, 16-19 (excluding Apprenticeships) [@education2023b].
 
-ILR data are used to ensure public money distributed through the Education & Skills Funding Agency is being spent in line with government targets, for quality, value for money, planning and supporting future initiatives.
+Training providers within the Further Education (FE) and skills sector in England 
+use the ‘Individualised Learner Record’ (ILR) to collect information about each of the 
+learners in their sector, the learning undertaken, and the learning outcome, e.g., 
+sectors include Adult skills, Community Learning, Skills Bootcamps, 16-19 (excluding 
+Apprenticeships) [@education2023b].
 
-An ILR ‘Year’ of data, typically runs from 1st August to 31st July and in May 2023, the ECHILD project acquired ILR data from 2000/01 to 2021/22 containing an aPMR identifier matched to the NPD – thereby facilitating linkage to the existing NPD datasets in ECHILD and adding another dimension to the potential for analyses.
+ILR data are used to ensure public money distributed through the Education & Skills 
+Funding Agency is being spent in line with government targets, for quality, value for 
+money, planning and supporting future initiatives.
+
+An ILR ‘Year’ of data, typically runs from 1st August to 31st July and in May 2023, 
+the ECHILD project acquired ILR data from 2000/01 to 2021/22 containing an aPMR 
+identifier matched to the NPD – thereby facilitating linkage to the existing NPD 
+datasets in ECHILD and adding another dimension to the potential for analyses.
