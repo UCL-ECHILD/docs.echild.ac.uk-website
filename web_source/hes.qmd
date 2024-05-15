@@ -1,25 +1,47 @@
 # Hospital Episode Statistics {#sec-data-hes}
 
-HES contains hospital records for all NHS patients in England, including patient demographics and standardised codes for diagnoses, symptoms and procedures relating to the care they have received [@nhse2023b]. The datasets are collected by NHSE from hospital care providers and curated on an ongoing basis. However, data from other health providers such as General Practitioners (GPs) or pharmacies are not included. HES datasets are collated by financial year and following processing and quality assessment, the finalised datasets are released for secondary use and remain unchanged thereafter [@boyd2017a].
-
+HES contains hospital records for all NHS patients in England, including patient 
+demographics and standardised codes for diagnoses, symptoms and procedures relating 
+to the care they have received [@nhse2023b]. The datasets are collected by NHSE from 
+hospital care providers and curated on an ongoing basis. However, data from other 
+health providers such as General Practitioners (GPs) or pharmacies are not included. 
+HES datasets are collated by financial year and following processing and quality 
+assessment, the finalised datasets are released for secondary use and remain 
+unchanged thereafter [@boyd2017a].
 
 ## Admitted Patient Care
 
-Records within the Admitted Patient Care (APC) dataset are called ‘hospital episodes’, and each episode relates to a period of care for a patient under a single consultant (consultant episode) within one hospital provider [@herbert2017a; @boyd2017a; @hdr2023b]. The time from initial admission to discharge is called a ‘spell’, defined as ‘periods of continuous care in one provider institution’ and each admission spell can be made up of many episodes. APC data contain ‘Finished Admission Episodes’ (FAEs) which is the first episode in a spell of care, and ‘Finished Consultant Episodes’ (FCEs), which is a continuous period of care under one consultant. Only FCEs occurring within the financial year (up to midnight on 31st Mar) are included. Patients with an unfinished consultant episode in the current financial year will have their record represented as a finished episode in the next financial year of HES data.
+Records within the Admitted Patient Care (APC) dataset are called 'hospital episodes', 
+and each episode relates to a period of care for a patient under a single consultant 
+(consultant episode) within one hospital provider [@herbert2017a; @boyd2017a; @hdr2023b]. 
+The time from initial admission to discharge is called a 'spell', defined as 'periods of 
+continuous care in one provider institution' and each admission spell can be made up of 
+many episodes. APC data contain 'Finished Admission Episodes' (FAEs) which is the first 
+episode in a spell of care, and 'Finished Consultant Episodes' (FCEs), which is a 
+continuous period of care under one consultant. Only FCEs occurring within the financial 
+year (up to midnight on 31st Mar) are included. Patients with an unfinished consultant 
+episode in the current financial year will have their record represented as a finished 
+episode in the next financial year of HES data.
 
 ### Inpatient spell (single hospital)
 
-A hospital admission commences when a patient is initially admitted for care and ends when a patient is discharged, transferred, or dies.
+A hospital admission commences when a patient is initially admitted for care and ends 
+when a patient is discharged, transferred, or dies.
 
-One spell of admission encompasses multiple episodes of care under an different consultant.
+One spell of admission encompasses multiple episodes of care under an different 
+consultant.
 
-![](static/data-hes-spell1.png){fig-alt="Diagram showing three finished consultant episodes within one hospital admission, all comprising one spell."}
+![](static/data-hes-spell1.png){fig-alt="Diagram showing three finished consultant 
+episodes within one hospital admission, all comprising one spell."}
 
 ### Continuous Inpatient spell (across multiple hospitals)
 
-In some instances, admitted patients who require specialised treatment may be transferred from one hospital to another more specialist hospital, e.g., transfer to a Children’s hospital.
+In some instances, admitted patients who require specialised treatment may be 
+transferred from one hospital to another more specialist hospital, e.g., transfer 
+to a Children's hospital.
 
-![](static/data-hes-spell2.png){fig-alt="Diagram showing three finished consultant episodes within one hospital admission, all comprising one spell."}
+![](static/data-hes-spell2.png){fig-alt="Diagram showing three finished consultant 
+episodes within one hospital admission, all comprising one spell."}
 
 
 ## Attribute data: hospital attendance
