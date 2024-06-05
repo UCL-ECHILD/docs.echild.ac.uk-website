@@ -79,7 +79,7 @@ format:
           <link href="https://docs.echild.ac.uk/favicon.ico?v=2" rel="icon">
     
 bibliography: references.bib
-csl: elsevier-vancouver.csl
+csl: harvard-cite-them-right-11th-edition.csl
 link-citations: true
 nocite: |
   @*
