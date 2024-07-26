@@ -73,7 +73,7 @@ jobs:
         shell: bash
         run: |
           pdf_datetime="$(date +'%Y%m%d_%H%M%S%Z')"
-          quarto render web_source/ --to pdf --output-dir pdf/quarto-buggyness --output "ECHILD-Documentation_${pdf_datetime}.pdf"
+          quarto render web_source/ --to pdf --output-dir pdf/quarto-buggyness --output "ECHILD-User-Guide_${pdf_datetime}.pdf"
 
       - name: Render website
         uses: quarto-dev/quarto-actions/render@v2
