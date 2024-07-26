@@ -8,11 +8,6 @@
       }
     ]
   },
-  "Python": {
-    "Version": "3.10.12",
-    "Type": "virtualenv",
-    "Name": "./renv/python/virtualenvs/renv-python-3.10"
-  },
   "Packages": {
     "R6": {
       "Package": "R6",
