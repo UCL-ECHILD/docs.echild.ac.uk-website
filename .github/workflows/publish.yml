@@ -73,12 +73,13 @@ jobs:
         shell: bash
         run: |
           pdf_datetime="$(date +'%Y%m%d_%H%M%S%Z')"
-          quarto render web_source/ --to pdf --output-dir ./pdf/ --output "ECHILD-Documentation_${pdf_datetime}.pdf"
+          quarto render web_source/ --to pdf --output-dir pdf/quarto-buggyness --output "ECHILD-Documentation_${pdf_datetime}.pdf"
 
-      - name: Render quarto website
+      - name: Render website
         uses: quarto-dev/quarto-actions/render@v2
         with:
           path: web_source/
+          to: html
 
 #      Cloudflare deploy
       - name: Deploy to cloudflare
