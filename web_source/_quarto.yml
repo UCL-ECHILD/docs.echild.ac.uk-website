@@ -63,8 +63,7 @@ book:
         - strengths.qmd
         - limits.qmd
     
-    - part: "References"
-      chapters: references.qmd
+    - part: references.qmd
   
   appendices:
     - appendix-resources.qmd
