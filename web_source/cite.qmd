@@ -1,3 +1,6 @@
+---
+engine: knitr
+---
 # Citing this User Guide {.unnumbered}
 
 ```{r}
@@ -22,27 +25,23 @@ if(is_pdf_doc) {
   bibtex_reference <- paste(strwrap(bibtex_reference, width = 79), collapse = "\n")
 }
 
-codeblocks_output <- knitr::knit_child(text = glue::glue(r"(
-                                                         ```{.html .code-overflow-wrap}
-                                                         
-                                                         <<reference>>
-                                                         
-                                                         ```
-                                                         
-                                                         BibTex reference:
-                                                         
-                                                         ``` {.bibtex .code-overflow-wrap}
-                                                         
-                                                         <<bibtex_reference>>
-                                                         
-                                                         ```)", 
-                                                         .open = "<<", 
-                                                         .close = ">>"), 
-                                       quiet = TRUE)
+codeblocks_output <-glue::glue("```{.html .code-overflow-wrap}
+                              <<reference>>              
+                              ```
+                              
+                              BibTex reference:
+                              
+                              ```{.bibtex .code-overflow-wrap}
+                              <<bibtex_reference>>
+                              ```", 
+                              .open = "<<", 
+                              .close = ">>")
 
 ```
 
-`{r} I(knitr::asis_output(codeblocks_output))`
+When citing this User Guide, you should use the following:
+
+`{r} I(codeblocks_output)`
 
 ::: {.callout-note}
 The DOI provided in the above snippets will resolve to the most recent release 
