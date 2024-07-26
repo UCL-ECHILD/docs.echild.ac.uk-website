@@ -1,7 +1,7 @@
 # Citing this User Guide {.unnumbered}
 
 ```{r}
-#| include: false
+#| echo: true
 
 is_pdf_doc <- (length(list.files(path = "pdf", pattern = "^.*.pdf$")) == 0)
 
@@ -22,6 +22,12 @@ if(is_pdf_doc) {
   bibtex_reference <- paste(strwrap(bibtex_reference, width = 79), collapse = "\n")
 }
 
+print(reference)
+
+print("\n\n")
+
+print(bibtex_reference)
+
 codeblocks_output <-glue::glue("```{.html .code-overflow-wrap}
                               <<reference>>              
                               ```
@@ -33,6 +39,8 @@ codeblocks_output <-glue::glue("```{.html .code-overflow-wrap}
                               ```", 
                               .open = "<<", 
                               .close = ">>")
+
+print(codeblocks_output)
 
 ```
 
