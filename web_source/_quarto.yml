@@ -2,11 +2,10 @@ project:
   type: book
   resources: 
     - static/*
+    - pdf/*.pdf
     - favicon.ico
   output-dir: ../_docs
-  # pre-render: 
-  # post-render:
- 
+
 book:
   title: "ECHILD documentation"
   reader-mode: true
@@ -75,12 +74,17 @@ format:
     code-copy: true
     code-link: true
     include-in-header:
-      - text: |
-          <link href="https://docs.echild.ac.uk/favicon.ico?v=2" rel="icon">
+      - text: <link href="https://docs.echild.ac.uk/favicon.ico?v=2" rel="icon">
+          
+  pdf:
+    include-in-header:
+      - text: \svgsetup{inkscapeformat=eps}
+          
+pdf-engine-opts:
+  - '--shell-escape'
     
 bibliography: references.bib
 csl: harvard-cite-them-right-11th-edition.csl
 link-citations: true
 nocite: |
   @*
-  

@@ -26,8 +26,14 @@ jobs:
       #   
       # - name: Instal asdf and tools
       #   uses: asdf-vm/actions/install@v2
+      
+      - name: Install Inkscape
+        shell: bash
+        run: |
+          sudo apt update
+          sudo apt install inkscape
 
-      - name: Set up Quarto
+      - name: Install and set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install and configure Poetry
@@ -58,6 +64,12 @@ jobs:
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
+          
+      - name: Render pdf
+        shell: bash
+        run: |
+          pdf_datetime="$(date +'%Y%m%d_%H%M%S%Z')"
+          quarto render web_source/ --to pdf --output-dir ./pdf/ --output "ECHILD-Documentation_${pdf_datetime}.pdf"
 
       - name: Render quarto website
         uses: quarto-dev/quarto-actions/render@v2

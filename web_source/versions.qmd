@@ -1,5 +1,29 @@
 # Versions {.unnumbered}
 
+```{r}
+
+pdf_doc <- list.files(path = "web_source/pdf", pattern = "^.*.pdf$")
+
+pdf_link_text <- "pdf version of this website"
+
+if(length(pdf_doc) == 1) { 
+  pdf_link_text <- paste0("[", 
+                          pdf_link_text, 
+                          "](/pdf/",
+                          pdf_doc,
+                          ")")
+} else if(length(pdf_doc) != 0) {
+  stop("More than one pdf present in pdf directory.")
+}
+
+```
+
+
+The [ECHILD Documentation website](https://doc.echild.ac.uk) is the canonical 
+source of ECHILD Documentation. A `{r} I(pdf_link_text)` is made available 
+to download.
+
+
 | Version | Date | Details |
 |:--|:--|:--------------|
 | First web version | March 2024 | First web version based on version 2.0, ported by Tony Stone, Matthew Jay and Farzan Ramzan. See [release log](https://github.com/UCL-ECHILD/docs.echild.ac.uk-website/releases) for release history henceforth. |
