@@ -64,7 +64,8 @@ book:
         - limits.qmd
     
     - part: "References"
-      chapters: references.qmd
+      chapters: 
+        - references.qmd
   
   appendices:
     - appendix-resources.qmd
