@@ -35,10 +35,6 @@ jobs:
 
       - name: Install and set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-          env:
-            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          with:
-            tinytex: true
 
       - name: Install and configure Poetry
         uses: snok/install-poetry@v1
@@ -72,7 +68,6 @@ jobs:
       - name: Render pdf
         shell: bash
         run: |
-          quarto install tinytex
           pdf_datetime="$(date +'%Y%m%d_%H%M%S%Z')"
           quarto render web_source/ --to pdf --output-dir ./pdf/ --output "ECHILD-Documentation_${pdf_datetime}.pdf"
 
