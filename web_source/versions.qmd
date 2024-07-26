@@ -4,7 +4,7 @@
 
 pdf_doc <- list.files(path = "pdf", pattern = "^.*.pdf$")
 
-pdf_link_text <- "pdf version of this website"
+pdf_link_text <- "pdf version of the contents of this website"
 
 if(length(pdf_doc) == 1) { 
   pdf_link_text <- paste0("[", 
@@ -19,9 +19,9 @@ if(length(pdf_doc) == 1) {
 ```
 
 
-The [ECHILD Documentation website](https://docs.echild.ac.uk) is the canonical 
-source of ECHILD Documentation. A `{r} I(pdf_link_text)` is made available 
-to download.
+The [website version of the ECHILD User Guide](https://docs.echild.ac.uk) is 
+the canonical source of the ECHILD User Guide. A `{r} I(pdf_link_text)` is 
+automatically generated and made available without warranty.
 
 
 | Version | Date | Details |
