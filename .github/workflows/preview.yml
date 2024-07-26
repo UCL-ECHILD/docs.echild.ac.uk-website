@@ -1,14 +1,15 @@
-name: Render and deploy website publicly
+name: Render and deploy website to preview
 
 on:
-  release:
-    types: [released]
+  push:
+    branches: main
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: "publish"
+  group: "preview"
   cancel-in-progress: true
 
 jobs:
@@ -17,7 +18,13 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
+      #   
+      # - name: Install dependencies for asdf R plugin
+      #   run: apt-get install build-essential libcurl3-dev libreadline-dev gfortran liblzma-dev liblzma5 libbz2-1.0 libbz2-dev xorg-dev libbz2-dev liblzma-dev libpcre2-dev
+      #   
+      # - name: Instal asdf and tools
+      #   uses: asdf-vm/actions/install@v2
+      
       - name: Install Inkscape
         shell: bash
         run: |
@@ -63,7 +70,8 @@ jobs:
       - name: Render pdf
         shell: bash
         run: |
-          quarto render web_source/ --to pdf --output-dir pdf/quarto-buggyness --output "ECHILD-User-Guide_${{ github.event.release.name }}.pdf"
+          pdf_datetime="$(date +'%Y%m%d_%H%M%S%Z')"
+          quarto render web_source/ --to pdf --output-dir pdf/quarto-buggyness --output "ECHILD-User-Guide_${pdf_datetime}.pdf"
 
       - name: Render website
         uses: quarto-dev/quarto-actions/render@v2
@@ -73,27 +81,15 @@ jobs:
 
 #      Cloudflare deploy
       - name: Deploy to cloudflare
+        id: deploy
         uses: cloudflare/wrangler-action@v3
         with:
           accountId: ${{ secrets.CLOUDFLARE_ID }}
           apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }}
-          command: pages deploy ./_docs --project-name=echild-docs --commit-dirty=true
-
-#      Google Cloud deploy
-#      - name: Authenticate on GCS
-#        uses: google-github-actions/auth@v2
-#        with:
-#          service_account: '${{ secrets.GCP_SA_EMAIL }}'
-#          workload_identity_provider: '${{ secrets.GCP_WIDP }}'
-#      
-#      - name: Set up Google Cloud SDK
-#        uses: google-github-actions/setup-gcloud@v2
-#
-#      - name: Deploy to Google Cloud
-#        run: gsutil -m rsync -d -c -r _site ${{ secrets.GCP_LOC }}
-
-#      GitHub Pages deploy
-#      - name: Upload GH Pages artififact
-#        uses: actions/upload-pages-artifact@v2#
-#      - name: Deploy to GitHub Pages
-#        uses: actions/deploy-pages@v2
+          command: pages deploy ./_docs --project-name=echild-docs --branch=preview --commit-dirty=true
+          
+      - name: Print preview url
+        env:
+          DEPLOYMENT_URL: ${{ steps.deploy.outputs.deployment-url }}
+        run: echo $DEPLOYMENT_URL
+        
