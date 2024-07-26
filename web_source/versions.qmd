@@ -2,7 +2,7 @@
 
 ```{r}
 
-pdf_doc <- list.files(path = "web_source/pdf", pattern = "^.*.pdf$")
+pdf_doc <- list.files(path = "pdf", pattern = "^.*.pdf$")
 
 pdf_link_text <- "pdf version of this website"
 
