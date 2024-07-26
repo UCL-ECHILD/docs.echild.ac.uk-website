@@ -5,10 +5,6 @@ project:
     - pdf/*.pdf
     - favicon.ico
   output-dir: ../_docs
-  
-execute:
-  echo: false
-  warning: false
 
 book:
   title: "ECHILD documentation"
@@ -63,7 +59,7 @@ book:
         - strengths.qmd
         - limits.qmd
     
-    - part: references.qmd
+    - references.qmd
   
   appendices:
     - appendix-resources.qmd
@@ -83,7 +79,6 @@ format:
   pdf:
     include-in-header:
       - text: \svgsetup{inkscapeformat=eps}
-    toc-depth: 1
           
 pdf-engine-opts:
   - '--shell-escape'

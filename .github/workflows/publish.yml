@@ -35,10 +35,10 @@ jobs:
 
       - name: Install and set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-          env:
-            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          with:
-            tinytex: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tinytex: true
 
       - name: Install and configure Poetry
         uses: snok/install-poetry@v1
@@ -73,13 +73,12 @@ jobs:
         shell: bash
         run: |
           pdf_datetime="$(date +'%Y%m%d_%H%M%S%Z')"
-          quarto render web_source/ --to pdf --output-dir pdf/quarto-buggyness --output "ECHILD-Documentation_${pdf_datetime}.pdf"
+          quarto render web_source/ --to pdf --output-dir ./pdf/ --output "ECHILD-Documentation_${pdf_datetime}.pdf"
 
-      - name: Render website
+      - name: Render quarto website
         uses: quarto-dev/quarto-actions/render@v2
         with:
           path: web_source/
-          to: html
 
 #      Cloudflare deploy
       - name: Deploy to cloudflare

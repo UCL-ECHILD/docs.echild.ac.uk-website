@@ -19,7 +19,7 @@ if(length(pdf_doc) == 1) {
 ```
 
 
-The [ECHILD Documentation website](https://docs.echild.ac.uk) is the canonical 
+The [ECHILD Documentation website](https://doc.echild.ac.uk) is the canonical 
 source of ECHILD Documentation. A `{r} I(pdf_link_text)` is made available 
 to download.
 
