@@ -1,7 +1,7 @@
 # Citing this User Guide {.unnumbered}
 
 ```{r}
-#| echo: true
+#| include: false
 
 is_pdf_doc <- (length(list.files(path = "pdf", pattern = "^.*.pdf$")) == 0)
 
@@ -30,9 +30,6 @@ codeblocks_output <- paste("```{.html .code-overflow-wrap}",
                            "```",
                            sep = "\n")
 
-
-
-print(codeblocks_output)
 
 ```
 
