@@ -16,36 +16,27 @@ bibtex_reference <- "@manual{echild2023,
   publisher = {UCL (University College London)}
 }"
 
-
 if(is_pdf_doc) {
   reference <- paste(strwrap(reference, width = 79), collapse = "\n")
   bibtex_reference <- paste(strwrap(bibtex_reference, width = 79), collapse = "\n")
 }
 
-print(reference)
+codeblocks_output <- paste("```{.html .code-overflow-wrap}",
+                           reference,
+                           "```",
+                           "\nBibTex reference:",
+                           "```{.bibtex .code-overflow-wrap}",
+                           bibtex_reference,
+                           "```",
+                           sep = "\n")
 
-print("\n\n")
 
-print(bibtex_reference)
-
-codeblocks_output <-glue::glue("```{.html .code-overflow-wrap}
-                              <<reference>>              
-                              ```
-                              
-                              BibTex reference:
-                              
-                              ```{.bibtex .code-overflow-wrap}
-                              <<bibtex_reference>>
-                              ```", 
-                              .open = "<<", 
-                              .close = ">>")
 
 print(codeblocks_output)
 
 ```
 
 When citing this User Guide, you should use the following:
-
 `{r} I(codeblocks_output)`
 
 ::: {.callout-note}
