@@ -18,6 +18,11 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Add subtitle
+        shell: bash
+        run: |
+          printf "\n  subtitle: \"Release: ${{ github.event.release.name }}\"\n" >> web_source/_quarto.yml
+
       - name: Install Inkscape
         shell: bash
         run: |
