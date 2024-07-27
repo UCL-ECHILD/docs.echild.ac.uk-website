@@ -16,8 +16,18 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Get timestamp
+        shell: bash
+        run: |
+          echo "RUN_TIMESTAMP=$(date +'%Y%m%d_%H%M%S%Z')" >> "$GITHUB_ENV"
+          
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Add subtitle
+        shell: bash
+        run: |
+          printf "\n  subtitle: \"$RUN_TIMESTAMP\"\n" >> web_source/_quarto.yml
       #   
       # - name: Install dependencies for asdf R plugin
       #   run: apt-get install build-essential libcurl3-dev libreadline-dev gfortran liblzma-dev liblzma5 libbz2-1.0 libbz2-dev xorg-dev libbz2-dev liblzma-dev libpcre2-dev
@@ -70,8 +80,7 @@ jobs:
       - name: Render pdf
         shell: bash
         run: |
-          pdf_datetime="$(date +'%Y%m%d_%H%M%S%Z')"
-          quarto render web_source/ --to pdf --output-dir pdf/quarto-buggyness --output "ECHILD-User-Guide_${pdf_datetime}.pdf"
+          quarto render web_source/ --to pdf --output-dir pdf/quarto-buggyness --output "ECHILD-User-Guide_$RUN_TIMESTAMP.pdf"
 
       - name: Render website
         uses: quarto-dev/quarto-actions/render@v2
