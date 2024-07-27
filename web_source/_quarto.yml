@@ -10,6 +10,29 @@ execute:
   echo: false
   warning: false
 
+format:
+  html:
+    theme:
+      - cosmo
+    code-copy: true
+    code-link: true
+    include-in-header:
+      - text: <link href="https://docs.echild.ac.uk/favicon.ico?v=2" rel="icon">
+          
+  pdf:
+    include-in-header:
+      - text: \svgsetup{inkscapeformat=eps}
+    toc-depth: 1
+          
+pdf-engine-opts:
+  - '--shell-escape'
+    
+bibliography: references.bib
+csl: harvard-cite-them-right-11th-edition.csl
+link-citations: true
+nocite: |
+  @*
+
 book:
   title: "ECHILD User Guide"
   reader-mode: true
@@ -70,28 +93,5 @@ book:
   appendices:
     - appendix-resources.qmd
     - appendix-linkage.qmd
-    
 
-
-format:
-  html:
-    theme:
-      - cosmo
-    code-copy: true
-    code-link: true
-    include-in-header:
-      - text: <link href="https://docs.echild.ac.uk/favicon.ico?v=2" rel="icon">
-          
-  pdf:
-    include-in-header:
-      - text: \svgsetup{inkscapeformat=eps}
-    toc-depth: 1
-          
-pdf-engine-opts:
-  - '--shell-escape'
-    
-bibliography: references.bib
-csl: harvard-cite-them-right-11th-edition.csl
-link-citations: true
-nocite: |
-  @*
+  subtitle: "Subtitle TEST"
