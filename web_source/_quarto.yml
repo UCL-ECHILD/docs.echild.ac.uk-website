@@ -33,6 +33,8 @@ link-citations: true
 nocite: |
   @*
 
+# The 'book' key MUST appear last as subtitle 
+# is added (dynamically) to the end of the file
 book:
   title: "ECHILD User Guide"
   reader-mode: true
