@@ -93,5 +93,3 @@ book:
   appendices:
     - appendix-resources.qmd
     - appendix-linkage.qmd
-
-  subtitle: "Subtitle TEST"
