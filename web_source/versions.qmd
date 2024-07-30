@@ -26,6 +26,6 @@ automatically generated and made available without warranty.
 
 | Version | Date | Details |
 |:--|:--|:--------------|
-| First web version | March 2024 | First web version based on version 2.0, ported by Tony Stone, Matthew Jay and Farzan Ramzan. See [release log](https://github.com/UCL-ECHILD/docs.echild.ac.uk-website/releases) for release history henceforth. |
+| 2.1.1 | 27 July 2024 | First web version based on version 2.0, ported by Tony Stone, Matthew Jay and Farzan Ramzan. See [release log](https://github.com/UCL-ECHILD/docs.echild.ac.uk-website/releases) for release history henceforth. |
 | 2.0 | 22 June 2023 | Education and Child Health Insights from Linked Data (ECHILD): An Introductory Guide for Researchers | 
 | 1.1.2 | 5 March 2021 | The Education and Child Health Insights from Linked Data (ECHILD) Database: An Introductory Guide for Researchers |
