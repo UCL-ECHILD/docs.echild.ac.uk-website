@@ -13,7 +13,7 @@ the copyright works of their respective copyright owners or otherwise declared.
 ## MIT License
 
 Copyright (c) 2021-2024 the authors (Farzan Ramzan, Louise Mc Grath-Lone, 
-Ruth Blackburn, Ruth Gilbert, Matthew Jay, Matthew Lilliman, 
+Ruth Blackburn, Ruth Gilbert, Matthew Jay, Kate Lewis, Matthew Lilliman, 
 Milagros Ruiz Nishiki, Tony Stone, Katie Harron).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
