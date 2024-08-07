@@ -29,6 +29,10 @@ authors:
   - given-names: Matthew
     family-names: Lilliman
     affiliation: "University College London (UCL)"
+  - given-names: Nguyen
+    family-names: Vincent
+    affiliation: "University College London (UCL)"
+    orcid: "https://orcid.org/0000-0002-9776-6242"
   - given-names: Milagros
     family-names: Ruiz Nishiki
     affiliation: "University College London (UCL)"
