@@ -113,4 +113,4 @@ NHS England produced a pseudonymised bridging file consisting of all aPMRs in th
 DfE-supplied linkage dataset and their linked TPI (excluding those removed due to 
 the presence of a NHS National Data Opt-Out). All aPMRs that were not matched 
 after Linkage Stage 2, or which related to a participant with a NHS National Data 
-Opt-Out, were included in this file but did not have an assigned TPI.
+Opt-Out, were omitted from this file.
