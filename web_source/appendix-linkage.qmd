@@ -1,7 +1,7 @@
 # Linkage process {#sec-linkage}
 
-This section provides an overview of the linkage process (Figure 2.2) used to create the 
-ECHILD database. 
+This section provides an overview of the linkage process (see figure under 
+[ECHILD database structure](database-structure.qmd)) used to create the ECHILD database. 
 
 ## Data sources
 
@@ -35,17 +35,17 @@ records for a person should be assigned the same NHS number (with some exception
 [@nhsprimarycare2023a]). 
 
 The Master Person Service (MPS), managed by NHS England [@nhse2023m], takes a record of 
-natural identifiers and attempts to match this to a PDS record allowing for some errors and 
+natural identifiers and attempts to link this to a PDS record allowing for some errors and 
 missingness in the recording of the natural identifiers. If this fails and the natural 
-identifiers are sufficiently complete, MPS attempts to match records against a secondary 
+identifiers are sufficiently complete, MPS attempts to link records against a secondary 
 store (MPS bucket) of natural identifiers of persons who previously had contact with the 
-NHS in England and do not have an NHS number, these persons are assigned an 'MPS ID'.
+NHS in England and do not have an NHS number, these persons are assigned an "MPS ID".
 
 The MPS returns a "Person ID" using either: 
 
-1. NHS number, if a valid match is found in PDS; or,
-2. MPS ID if no match is found in PDS but a valid match is found in the MPS bucket; or,
-3. No value if no match is found in either PDS or the MPS bucket.
+1. NHS number, if a valid link is found in PDS; or,
+2. MPS ID if no link is found in PDS but a valid link is found in the MPS bucket; or,
+3. No value if no link is found in either PDS or the MPS bucket.
 
 The Person ID is then encrypted to generate a Token Person ID (TPI), which is not meaningful 
 and does not reveal the person's identity.
@@ -53,33 +53,51 @@ and does not reveal the person's identity.
 Person IDs, enabling the assignment of Token Person IDs, are also recorded throughout NHS 
 England's standard data collections, including Hospital Episode Statistics datasets, 
 Emergency Care Datasets, Mental Health Services Datasets, and Community Services Datasets. 
-The 'Person ID' is the only routine means of identifying records belonging to the same 
+The "Person ID" is the only routine means of identifying records belonging to the same 
 patient amongst data held by NHS England.
 
 ## Linking DfE NPD aPMRs to NHS England TPIs 
 
 For the purposes of the ECHILD linkage, the following simplifying assumptions were made:
 
-1. Each aPMR represents precisely one "real" person within NPD;
-1. Each TPI represents precisely one "real" person within NHS England data collections;
-1. Each "real" person represented within NHS England data collections has precisely one TPI.
+1. Each aPMR represents at most one *real* person within NPD;
+1. Each TPI represents precisely one *real* person within NHS England data collections;
+1. Each *real* person represented within NHS England data collections has precisely one TPI.
 
 Essentially, whilst we assume TPIs are perfectly allocated, we only require that aPMRs are 
-not shared. That is, the same "real" person is permitted to have more than one aPMR.
+not shared. That is, the same *real* person **is** permitted to have more than one aPMR.
 
-This linkage task resulted in 'N-to-one' links between aPMRS and TPIs: linking each aPMR 
-to a single TPI but, a TPI may be linked to more than one aPMR. However, the vast majority 
-of links made were '1-to-1'.
+This linkage task resulted in "N-to-one" links between aPMRS and TPIs: each aPMR linked to 
+at most one TPI but a TPI may have linked to more than one aPMR. However, the vast majority 
+of links made were "1-to-1" (99.4% of linked TPIs linked to only one aPMR).
 
-DfE supplied a 'linkage dataset' to NHS England, comprising the natural identifiers 
+DfE supplied a "linkage dataset" to NHS England, comprising the natural identifiers 
 (forename, surname, gender, date of birth, postcode) and an aPMR for each record in its NPD.
 
 ### Linkage Stage 1: Exact link 
 
 An initial, simple, linkage stage was used to avoid over-burdening the more 
 resource-intensive MPS trace. Each valid record (e.g., no blank entries) in the linkage 
-dataset was compared to all records in a prepared extract from PDS. A record was deemed 
-"linked" if compared records matched on the following criteria:
+dataset was compared to all records in a prepared extract from PDS. A sequential, two part, 
+approach was used. Only records belonging to aPMRs not linked after Part A progressed to 
+Part B. In both parts, an aPMR was considered *linked* only if all of its associated linkage 
+records were linked to at most one TPI and at least one record was *linked* to a TPI.
+
+#### Part A: Full forename
+
+A record was deemed *linked* if compared records had equal (non-empty) values across all 
+of the following fields:
+
+1. Full forename;
+1. Full surname;
+1. Full date of birth;
+1. Full postcode; and,
+1. Gender.
+
+#### Part B: Partial forename
+
+A record was deemed *linked* if compared records had equal (non-empty) values across all 
+of the following fields:
 
 1. First four characters of forename;
 1. Full surname;
@@ -87,14 +105,21 @@ dataset was compared to all records in a prepared extract from PDS. A record was
 1. Full postcode; and,
 1. Gender.
 
-Further, an aPMR was considered 'linked' if all of its associated linkage records were 
-linked to at most one TPI and at least one record was 'linked' to a TPI.
-
 ### Linkage Stage 2: MPS Trace 
 
-Records with aPMRs that were not 'linked' in Linkage Stage 1 were submitted to MPS. 
-Again, an aPMR was considered 'linked' only if all of its associated linkage records 
-were linked to at most one TPI and at least one record was 'linked' to a TPI.
+Only records belonging to aPMRs not linked after Linkage Stage 1 were submitted to MPS. 
+Again, an aPMR was considered *linked* only if all of its associated linkage records 
+were linked to at most one TPI and at least one record was *linked* to a TPI.
+
+### Linkage results
+
+DfE provided 430M records, comprising sets of identifers, covering 22.8M aPMRs. 
+NHS England managed to link 22.6M (99.1%) aPMRs to a TPI. 20.1M (88.2%) aPMRs were 
+linked at Stage 1, Part A. A further 1.3M (5.7%) aPMRs were linked at Stage 1, Part B. 
+Stage 2 resulted in the linkage of a further 1.2M (5.3%) aPMRs. Less than 200,000 
+aPMRs remained unlinked at the end of Stage 2: ~160,000 were not resolvable to any TPI; 
+~30,000 resolved to more than one TPI and (due to the simplifying assumptions) these 
+were considered invalid and so no link was recorded for any of these aPMRs.
 
 ### Application of NHS National Data Opt-Outs
 
@@ -103,14 +128,16 @@ from their data being held within the ECHILD Research Database. Our data supplie
 indicated that the only means to (partially) operationalise this was through the 
 non-provision of data held by NHS England relating to participants with a current 
 (at the date of data preparation) NHS National Data Opt-Out (NDOO). This included 
-removing any indication of an identifed 'link' between the aPMRs and TPIs for 
+removing any indication of an identifed *link* between the aPMRs and TPIs for 
 participants with a NDOO. It was, however, not possible to exclude the DfE supplied 
-data relating to these participants.
+data relating to these participants. 1.3M (5.8%) of the 22.6M aPMRs for which NHS 
+England had identifed a link to a single TPI related to individuals with a 
+registered NDOO as at the date of generation of the data extract.
 
 ### Linkage Outputs: Pseudonymised bridging file 
 
 NHS England produced a pseudonymised bridging file consisting of all aPMRs in the 
 DfE-supplied linkage dataset and their linked TPI (excluding those removed due to 
-the presence of a NHS National Data Opt-Out). All aPMRs that were not matched 
+the presence of a NHS National Data Opt-Out). All aPMRs that were not *linked* 
 after Linkage Stage 2, or which related to a participant with a NHS National Data 
 Opt-Out, were omitted from this file.
