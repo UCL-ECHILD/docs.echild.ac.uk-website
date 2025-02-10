@@ -1,20 +1,23 @@
-# National Pupil Database {#sec-data-npd}
+# Education and social care data {#sec-data-npd}
 
-The NPD was formally established in 2002 based on including a pupil census record for every 
+The data collections detailed below are collated by the Department for Education (DfE).
+
+The National Pupil Database (NPD) was formally established in 2002 based on including a 
+pupil census record for every 
 child in state education [@jay2019a; @education2023c]. Prior to 2002, key stage test 
 results were recorded from 1995/6 (for KS2) which is linkable to the pupil census. The NPD 
-database is curated by the Department for Education (DfE). The NPD is made up of modules of 
-data that are  collected by the DfE from schools, local authorities and exam-awarding 
+database is curated by the DfE. The NPD is made up of modules of 
+data that are collected by the DfE from schools, local authorities and exam-awarding 
 organisations on an ongoing and statutory  basis. Information collected as part of NPD is 
 used for funding purposes, policy-making, generating statistics and research. The NPD 
 modules included in ECHILD can be broadly grouped as pupil characteristics, educational 
 outcomes and social care.  NPD does not include information on pupils within private 
 schools, or those being home-schooled, except in relation  to public examinations 
 (key stage 4 and 5). Approximately 7% of children [[@jay2019a] are enrolled in a private 
-school each  year with up to 11% ever enrolled in a private school during their school 
+school each year with up to 11% ever enrolled in a private school during their school 
 career [@green2017a].
 
-## Attribute data: Pupil Characteristics 
+## Pupil enrollment data collections
 
 | Dataset | Years | Details |
 |:--------|:---|:-----------|
@@ -39,14 +42,14 @@ whose parents are in receipt of certain benefits. Early years settings that do n
 any children who receive direct government funding are not required to submit information 
 via the Early Years Census.
 
-## Attribute data: School Characteristics 
+## School-level data collections
 
 | Dataset | Years | Details |
 |:--------|:---|:-----------|
 | School Level Census | 2005 to 2022 | Collects information from primary schools, secondary schools, special schools, maintained nurseries and academies and pupil referral units three times a year, however, private schools are not included. |
 | Get Information about Schools (GIAS) | 2020 to 2022 | GIAS (formerly 'Edubase') is the DfE's public register or dataset containing school characteristics. GIAS is updated whenever a school updates their details. GIAS also maintains information for several organisation types and is used by the DfE to contact establishments, update systems, perform analysis and inform policy decisions [@education2024d]. |
 
-## Attribute data: Educational Outcomes 
+## Educational Outcomes data collections
 
 | Dataset | Years | Details |
 |:--------|:---|:-----------|
@@ -89,7 +92,7 @@ about the post-16 activities of all young people aged 16 to 19 years (or aged 16
 by the DfE to estimate Not in Education, Employment or Training (NEET) rates for young 
 people in England.
 
-## Attribute data: Social Care 
+## Social Care data collections
 
 | Dataset | Years | Details |
 |:--------|:---|:-----------|
@@ -114,7 +117,7 @@ UPN was assigned (i.e., for most children who were a child in need or looked aft
 before school age). Previous research has shown that 20% of children who are ever 
 looked after during childhood are only looked after before age 5 [@mcgrathlone2022a].
 
-## Individualised Learner Record 
+## Individualised Learner Record data collection
 
 Training providers within the Further Education (FE) and skills sector in England 
 use the ‘Individualised Learner Record’ (ILR) to collect information about each of the 
