@@ -13,6 +13,7 @@
   + DfE National Pupil Database, including the Children Looked After Return and 
     Children in Need Census.
   + ONS Mortality data.
+  + Birth Notifications and ONS Birth Registration data
 * Linkage rates
   + of births in 1996/7, 94% of children in the National Pupil Database linked to a 
     hospital record.
