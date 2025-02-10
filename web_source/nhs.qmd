@@ -58,9 +58,13 @@ episodes within one hospital admission, all comprising one spell."}
 | Admitted Patient Care (APC)[^4] | 1997 to 2023 | Episode-level dataset of patients admitted for treatment (i.e., requiring the use of a hospital bed), at NHS hospitals in England; includes delivery and birth data, up to 20 diagnostic codes per episode and procedure codes [@herbert2017a; @nhse2024b; @hdr2023b]. |
 | Critical Care (CC)[^5] | 2007 to 2023 | Episode-level dataset of patients admitted for treatment and receiving Critical Care (intensive care or high dependency care) at NHS hospitals in England. Treatment in adult designated wards where constant support and monitoring are required to maintain at least one organ (i.e., an Intensive Care or High Dependency Unit) [@hdr2023e; nhse2024c].|
 
-[^4]: See footnote 1.
+[^1]: Diagnoses are recorded using the International Classification of
+    Disease (ICD) version 10 and procedures are recorded using the
+    Office of Population Censuses and Surveys (OPCS) version 4.
+    Diagnoses and procedures have very low levels of completeness in the
+    Outpatient dataset (5% and 26%, respectively) [@boyd2017a].
 
-[^5]: See footnote 1.
+[^2]: See footnote 1.
 
 ### Acute Hospital Attendance data collections
 
@@ -70,19 +74,15 @@ episodes within one hospital admission, all comprising one spell."}
 | Accident & Emergency (A&E)[^2] | 2007 to 2020 | Attendance level dataset collecting information about the treatment received by patients attending A&E Departments, Minor Injury Units and Walk-In Centres, in England [@nhse2023f; @hdr2023d]. |
 | Emergency Care Data Set (ECDS)[^3] | 2020 to 2023 | In 2018, the A&E dataset was replaced by the ECDS which is now the national dataset for Urgent & Emergency care [@nhse2023d; @nhse2023j; hdr2023d]. |
 
-[^1]: Diagnoses are recorded using the International Classification of
-    Disease (ICD) version 10 and procedures are recorded using the
-    Office of Population Censuses and Surveys (OPCS) version 4.
-    Diagnoses and procedures have very low levels of completeness in the
-    Outpatient dataset (5% and 26%, respectively) [@boyd2017a].
+[^3]: See footnote 1.
 
-[^2]: Bespoke codes are used to record diagnoses and treatments
+[^4]: Bespoke codes are used to record diagnoses and treatments
     [@nhse2023e]; however, these are much more limited than ICD-10 and
     OPCS-4 codes. Prior to 2012/13, the A&E module was considered
     experimental and did not have complete coverage as not all providers
     completed data submissions [@nhse2023f].
 
-[^3]: ECDS uses a subset of SNOMED CT codes to record diagnoses and
+[^5]: ECDS uses a subset of SNOMED CT codes to record diagnoses and
     treatments (amongst other variables) [@nhse2023d; @nhse2023j].
 
 
