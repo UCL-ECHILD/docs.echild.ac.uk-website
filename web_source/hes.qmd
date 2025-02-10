@@ -84,9 +84,9 @@ episodes within one hospital admission, all comprising one spell."}
 
 | Dataset | Years | Details |
 |:--------|:---|:-----------|
-| Mental Health Services Data Set (MHSDS) | 2016 to 2023 | Patient-level dataset that records all activity relating to patients who receive assessments and treatment from Mental Health Services in England, where the patient has (or is thought to have): either a mental health condition; a need for support with their mental well-being; a learning disability; autism; or any other neurodevelopmental condition [@nhse2023g]. |
-| Mental Health & Learning Disabilities Data Set | 2014 to 2016 | Disabilities Data Set Data is collected from the health records of individual children, young people and adults who were in contact with mental health services [@nhse2024d]. |
-| Mental Health Minimum Data Set (MHMDS)| 2006 to 2016 | The MHMDS was the preliminary dataset capturing data about the use of Mental Health Services in England. However, the MHMDS was superseded by the Mental Health & Learning Disabilities Data Set, which in turn was superseded by the MHSDS [@nhse2024d]. |
+| Mental Health Services Data Set (MHSDS) | 2016 to 2023 | Patient-level dataset that records all activity relating to patients who receive assessments and treatment from Mental Health Services in England, where the patient has (or is thought to have): either a mental health condition; a need for support with their mental well-being; a learning disability; autism; or any other neurodevelopmental condition [@nhse2023g]. MHSDS includes records for children.|
+| Mental Health & Learning Disabilities Data Set (MHLDDS)| 2014 to 2016 | Disabilities Data Set Data is collected from the health records of individual children, young people and adults who were in contact with mental health services [@nhse2024d]. Please note MHLDDS does not include records for children.|
+| Mental Health Minimum Data Set (MHMDS)| 2006 to 2016 | The MHMDS was the preliminary dataset capturing data about the use of Mental Health Services in England. However, the MHMDS was superseded by the Mental Health & Learning Disabilities Data Set, which in turn was superseded by the MHSDS [@nhse2024d]. Please note MHMDS does not include records for children|
 
 ## Attribute data: birth
 
