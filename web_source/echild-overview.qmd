@@ -12,6 +12,7 @@
     (listed in @sec-data-attribute-data).
   + DfE National Pupil Database, including the Children Looked After Return and 
     Children in Need Census.
+  + Individualised Learning Records
   + ONS Mortality data.
 * Linkage rates
   + of births in 1996/7, 94% of children in the National Pupil Database linked to a 
