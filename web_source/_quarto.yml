@@ -69,8 +69,8 @@ book:
       chapters:
         - attribute-data.qmd
         - data-coverage.qmd
-        - hes.qmd
-        - npd.qmd
+        - nhs.qmd
+        - dfe.qmd
         - mother-baby.qmd
 
     - part: "Accessing ECHILD"
