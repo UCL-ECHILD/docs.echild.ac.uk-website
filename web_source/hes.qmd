@@ -5,7 +5,7 @@ demographics and standardised codes for diagnoses, symptoms and procedures relat
 to the care they have received [@nhse2023b]. The datasets are collected by NHSE from 
 hospital care providers and curated on an ongoing basis. However, data from other 
 health providers such as General Practitioners (GPs) or pharmacies are not included. 
-HES datasets are collated by financial year and following processing and quality 
+HES datasets are collated by financial year (1st April to 31st March) and following processing and quality 
 assessment, the finalised datasets are released for secondary use and remain 
 unchanged thereafter [@boyd2017a].
 
@@ -18,8 +18,8 @@ The time from initial admission to discharge is called a 'spell', defined as 'pe
 continuous care in one provider institution' and each admission spell can be made up of 
 many episodes. APC data contain 'Finished Admission Episodes' (FAEs) which is the first 
 episode in a spell of care, and 'Finished Consultant Episodes' (FCEs), which is a 
-continuous period of care under one consultant. Only FCEs occurring within the financial 
-year (up to midnight on 31st Mar) are included. Patients with an unfinished consultant 
+continuous period of care under one consultant. Only FCEs concluded within the financial 
+year (from 1st April to the end of 31st March) are included. Patients with an unfinished consultant 
 episode in the current financial year will have their record represented as a finished 
 episode in the next financial year of HES data.
 
