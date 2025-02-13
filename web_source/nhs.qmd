@@ -56,7 +56,7 @@ episodes within one hospital admission, all comprising one spell."}
 | Dataset | Years | Details |
 |:--------|:---|:-----------|
 | Admitted Patient Care (APC)[^4] | 1997 to 2023 | Episode-level dataset of patients admitted for treatment (i.e., requiring the use of a hospital bed), at NHS hospitals in England; includes delivery and birth data, up to 20 diagnostic codes per episode and procedure codes [@herbert2017a; @nhse2024b; @hdr2023b]. |
-| Critical Care (CC)[^5] | 2007 to 2023 | Episode-level dataset of patients admitted for treatment and receiving Critical Care (intensive care or high dependency care) at NHS hospitals in England. Treatment in adult designated wards where constant support and monitoring are required to maintain at least one organ (i.e., an Intensive Care or High Dependency Unit) [@hdr2023e; nhse2024c].|
+| Critical Care (CC)[^5] | 2007 to 2023 | Episode-level dataset of patients admitted for treatment and receiving Critical Care (intensive care or high dependency care) at NHS hospitals in England. Treatment in adult designated wards where constant support and monitoring are required to maintain at least one organ (i.e., an Intensive Care or High Dependency Unit) [@hdr2023e; @nhse2024c].|
 
 [^1]: Diagnoses are recorded using the International Classification of
     Disease (ICD) version 10 and procedures are recorded using the
