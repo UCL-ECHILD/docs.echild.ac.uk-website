@@ -34,7 +34,7 @@ episode in the next financial year of HES data.
 A hospital admission commences when a patient is initially admitted for care and ends 
 when a patient is discharged, transferred, or dies.
 
-One spell of admission encompasses multiple episodes of care under an different 
+One spell of admission encompasses multiple episodes of care under a different 
 consultant.
 
 ![](static/data-hes-spell1.png){fig-alt="Diagram showing three finished consultant 
