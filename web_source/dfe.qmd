@@ -13,7 +13,7 @@ used for funding purposes, policy-making, generating statistics and research. Th
 modules included in ECHILD can be broadly grouped as pupil characteristics, educational 
 outcomes and social care.  NPD does not include information on pupils within private 
 schools, or those being home-schooled, except in relation  to public examinations 
-(key stage 4 and 5). Approximately 7% of children [[@jay2019a] are enrolled in a private 
+(key stage 4 and 5). Approximately 7% of children [@jay2019a] are enrolled in a private 
 school each year with up to 11% ever enrolled in a private school during their school 
 career [@green2017a].
 
