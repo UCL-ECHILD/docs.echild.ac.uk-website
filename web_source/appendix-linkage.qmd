@@ -67,7 +67,7 @@ For the purposes of the ECHILD linkage, the following simplifying assumptions we
 Essentially, whilst we assume TPIs are perfectly allocated, we only require that aPMRs are 
 not shared. That is, the same *real* person **is** permitted to have more than one aPMR.
 
-This linkage task resulted in "N-to-one" links between aPMRS and TPIs: each aPMR linked to 
+This linkage task resulted in "N-to-one" links between aPMRs and TPIs: each aPMR linked to 
 at most one TPI but a TPI may have linked to more than one aPMR. However, the vast majority 
 of links made were "1-to-1" (99.4% of linked TPIs linked to only one aPMR).
 
@@ -113,7 +113,7 @@ were linked to at most one TPI and at least one record was *linked* to a TPI.
 
 ### Linkage results
 
-DfE provided 430M records, comprising sets of identifers, covering 22.8M aPMRs. 
+DfE provided 430M records, comprising sets of identifiers, covering 22.8M aPMRs. 
 NHS England managed to link 22.6M (99.1%) aPMRs to a TPI. 20.1M (88.2%) aPMRs were 
 linked at Stage 1, Part A. A further 1.3M (5.7%) aPMRs were linked at Stage 1, Part B. 
 Stage 2 resulted in the linkage of a further 1.2M (5.3%) aPMRs. Less than 200,000 
@@ -128,10 +128,10 @@ from their data being held within the ECHILD Research Database. Our data supplie
 indicated that the only means to (partially) operationalise this was through the 
 non-provision of data held by NHS England relating to participants with a current 
 (at the date of data preparation) NHS National Data Opt-Out (NDOO). This included 
-removing any indication of an identifed *link* between the aPMRs and TPIs for 
+removing any indication of an identified *link* between the aPMRs and TPIs for 
 participants with a NDOO. It was, however, not possible to exclude the DfE supplied 
 data relating to these participants. 1.3M (5.8%) of the 22.6M aPMRs for which NHS 
-England had identifed a link to a single TPI related to individuals with a 
+England had identified a link to a single TPI related to individuals with a 
 registered NDOO as at the date of generation of the data extract.
 
 ### Linkage Outputs: Pseudonymised bridging file 
