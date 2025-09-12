@@ -6,10 +6,10 @@ To access ECHILD, the following steps are required:
 [ich.echild\@ucl.ac.uk](mailto:ich.echild@ucl.ac.uk){.email}
 1. Complete ethics self-assessment (recommended)
 1. Submit an 
-[application form](https://www.echild.ac.uk/s/New_SRS_Application_Form_V13-ECHILD.docx) to UCL
+[application form](https://www.echild.ac.uk/s/New_PASS_SRS_Application_Form_V11_ECHILD.docx) to UCL
 1. Obtain approval from UCL on feasibility and purpose
 1. Submit the UCL-approved application form to the ONS 
-[Research Accreditation Panel](https://uksa.statisticsauthority.gov.uk/digitaleconomyact-research-statistics/research-accreditation-panel/) (RAP)
+[Research Accreditation Panel](https://ons.metadata.works/browser/landing) (PASS)
 1. Obtain approval from ONS for release under Digital Economy Act (DEA) 
 1. Sign the Data Access Agreement with UCL (the sublicense agreement) and the ONS Accredited Researcher Assurance 
 Registration (ARAR) form.
