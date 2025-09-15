@@ -1,18 +1,29 @@
 # Process to access ECHILD {#sec-access-process}
 
-To access ECHILD, the following steps are required:
+Substantive employees, or PhD students with a substantive contract, within UK universities or other research organisation can apply to access ECHILD using the following process: 
 
-1. Contact ECHILD Team: 
-[ich.echild\@ucl.ac.uk](mailto:ich.echild@ucl.ac.uk){.email}
-1. Complete ethics self-assessment
-1. Submit an 
-[application form](https://uksa.statisticsauthority.gov.uk/wp-content/uploads/2023/03/Research_Project_Application_v1.8-2.docx) 
-(*.docx file) to UCL
-1. Obtain approval from UCL on feasibility and purpose
-1. Submit the UCL-approved application form to the ONS 
-[Research Accreditation Panel](https://uksa.statisticsauthority.gov.uk/digitaleconomyact-research-statistics/research-accreditation-panel/) (RAP)
-1. Obtain approval from RAP for release under Digital Economy Act (DEA) 
-1. Sign the Data Access Agreement with UCL (the sublicense agreement) and the ONS Accredited Researcher Assurance 
-Registration (ARAR) form.
-1. UCL instructs ONS to provide access to a specified extract of ECHILD to 
-named user(s).
+1. Obtain Full
+   [Accredited Researcher status](https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/approvedresearcherscheme).
+1. Familiarise yourself with the [ECHILD User Guide](https://docs.echild.ac.uk/)
+   and [Data Catalogue](https://www.echild.ac.uk/s/echild_datacatalogue_v21_202310.xlsx). 
+1. Ensure that your institution has 
+   [Assured Organisational Connectivity](https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/secureresearchservice/accessthedatasecurely)
+   certified by the ONS Secure Research Service, or alternatively, check you can access the
+   [SafePod Network](https://safepodnetwork.ac.uk/).
+1. Contact the ECHILD team at UCL to discuss feasibility: 
+   [ich.echild@ucl.ac.uk](mailto:ich.echild@ucl.ac.uk)
+1. We recommend completing the 
+   [UKSA Ethics self-assessment](https://uksa.statisticsauthority.gov.uk/the-authority-board/committees/national-statisticians-advisory-committees-and-panels/national-statisticians-data-ethics-advisory-committee/ethics-self-assessment-tool/),
+   but it is not compulsory. 
+1. Complete a project 
+   [Application Form](https://www.echild.ac.uk/s/New_PASS_SRS_Application_Form_V11_ECHILD.docx)
+   and a
+   [Data Request Form](https://www.echild.ac.uk/s/ECHILD-Data-Request-Form-V15_new-7rgz.xlsx),
+   and submit to the ECHILD team.\
+   *Note: We aim to provide feedback within 2 weeks of receiving a completed application form.*
+1. Once your application has been approved by UCL, you will submit your application to the 
+   [ONS PASS system](https://ons.metadata.works/browser/landing) for project accreditation.\
+   *Note: applications take an average of 10 weeks to be processed by ONS.*
+1. Finally, your organisation will need to sign a **non-negotiable**
+   [Data Access Agreement](https://www.echild.ac.uk/s/eCHILD-Sublicence-agreement_SAMPLE_TO_SHARE.pdf)
+   (sublicense) with UCL.
