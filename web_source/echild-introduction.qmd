@@ -4,7 +4,7 @@
 
 This guide introduces researchers to the **ECHILD** database by providing a broad overview of its coverage, content and creation. ECHILD is a linkable collection of longitudinal, administrative datasets from NHS hospitals, all state school education and children’s social care services for the whole population of children and young people in England.
 
-The administrative datasets from education, social care and hospital contacts that have been brought together in ECHILD are well-documented by data providers and the research community. This user guide does not duplicate existing detailed information about these source datasets. Instead, we highlight key aspects that have implications for the potential uses, strengths and limitations of ECHILD. Variables that are included in ECHILD are available separately in the ECHILD Data Catalogue; @sec-resources lists some useful resources related to the constituent datasets.
+The administrative datasets from education, social care and hospital contacts that have been brought together in ECHILD are well-documented by data providers and the research community. This user guide does not duplicate existing detailed information about these source datasets. Instead, we highlight key aspects that have implications for the potential uses, strengths and limitations of ECHILD. Variables that are included in ECHILD are available separately in the [ECHILD Data Catalogue](https://www.echild.ac.uk/s/ECHILD_DataCatalogue_v3_20251017-jlmx.xlsx); @sec-resources lists some useful resources related to the constituent datasets.
 
 ## Partnerships
 
