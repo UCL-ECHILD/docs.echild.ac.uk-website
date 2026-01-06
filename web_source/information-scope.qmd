@@ -4,4 +4,4 @@ In England, information on a child’s journey through education and social care
 
 Within ECHILD, healthcare, education and social care records have been linked to create a longitudinal database that follows children over time. The database is very useful for research as health, education and social care trajectories are strongly interrelated from childhood to adulthood. ECHILD provides a valuable opportunity to explore these relationships and to generate evidence for policy and practice [@mcgrathlone2021a].
 
-![](static/echild-information-scope.png){fig-alt="Diagram showing a child's hypothetical journey from birth to adultood and the various health, education and social care contacts they might have."}
+![](static/echild-information-scope.png){fig-alt="Diagram showing a child's hypothetical journey from birth to adultood and the various health, education and social care contacts they might have."} Figure 2: Example trajectory of an individual from birth to young adulthood, captured in the ECHILD data

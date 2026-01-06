@@ -1,6 +1,6 @@
-# Key research purposes {#sec-echild-key-purposes}
+# Permitted use {#sec-permitted-use}
 
-ECHILD will only be used for research that has a clear public benefit in England and Wales to improve the health and well-being of children and young people accessing health, education and social care services. The specific research purposes (permitted uses) are below (in bold) with examples of relevant research questions.
+ECHILD can only be used for research that has a clear public benefit to improve the health and well-being of children and young people in England and Wales. Specific research purposes (permitted uses), with examples of relevant research questions, are: 
 
 1. **Informing preventative strategies by Healthcare and Education services** e.g., do disabled children attending schools, or living in areas that provide a good level of disability support in school or through social care services, have lower rates of unplanned hospital contacts compared with less supportive schools/areas? 
 2. **Informing children and their parents** e.g., about variation in special educational needs support and outcomes for children with chronic health conditions or disability.
