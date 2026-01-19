@@ -1,12 +1,12 @@
 # Introduction {#sec-echild-introduction}
 
-This User Guide aims to give researchers and analysts an introduction to **ECHILD**. It should be read in conjunction with the [ECHILD Data Catalogue](https://www.echild.ac.uk/s/ECHILD_DataCatalogue_v3_20251017-jlmx.xlsx). If you have any feedback or spot any errors, you can use the “Report an issue” link present on each page.
+This User Guide aims to give researchers and analysts an introduction to **ECHILD**. It should be read in conjunction with the [ECHILD Data Catalogue](https://www.echild.ac.uk/s/ECHILD_DataCatalogue_v31_20251209.xlsx). If you have any feedback or spot any errors, you can use the “Report an issue” link present on each page.
 
 ## Education & Child Health Insights from Linked Data (ECHILD)
 
 ECHILD is a collection of linked, longitudinal, administrative datasets from NHS hospitals, state school education, and children’s social care services for the whole population of children and young people in England. The creation of [ECHILD](https://www.echild.ac.uk/) was led by University College London in partnership with NHS England (NHSE) and the Department for Education (DfE), and funded by ADR UK [@echild2023a; @adruk2023a].
 
-The administrative datasets that have been brought together in ECHILD are well-documented by data providers and the research community. This user guide does not duplicate existing detailed information about these source datasets. Instead, we highlight key aspects that have implications for the potential uses, strengths and limitations of ECHILD. Variables that are included in ECHILD are available separately in the [ECHILD Data Catalogue](https://www.echild.ac.uk/s/ECHILD_DataCatalogue_v3_20251017-jlmx.xlsx). @sec-resources lists some useful resources related to the constituent datasets.
+The administrative datasets that have been brought together in ECHILD are well-documented by data providers and the research community. This user guide does not duplicate existing detailed information about these source datasets. Instead, we highlight key aspects that have implications for the potential uses, strengths and limitations of ECHILD. Variables that are included in ECHILD are available separately in the [ECHILD Data Catalogue](https://www.echild.ac.uk/s/ECHILD_DataCatalogue_v31_20251209.xlsx). @sec-resources lists some useful resources related to the constituent datasets.
 
 ## Approvals
 
