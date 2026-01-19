@@ -36,12 +36,13 @@ codeblocks_output <- paste("```{.html .code-overflow-wrap}",
 When citing this User Guide, you should use the following:
 `{r} I(codeblocks_output)`
 
-::: {.callout-note}
+:::: {.callout-note}
 The DOI provided in the above snippets will resolve to the most recent release 
 of this ECHILD User Guide available at the time that the DOI is **accessed**. 
 
 If you wish to link to the current release of the ECHILD User Guide at the 
-current time, you should use the DOI shown here : 
+current time, you should use the DOI shown here:
+
 ::: {.content-visible when-format="html"}
 [![DOI](https://zenodo.org/badge/748342316.svg)](https://zenodo.org/badge/latestdoi/748342316)
 :::
@@ -49,4 +50,4 @@ current time, you should use the DOI shown here :
 To find the DOI of a previous release, visit the ECHILD User Guide's
 [Zenodo record](https://zenodo.org/records/10854355) and select the applicable 
 version.
-:::
+::::
