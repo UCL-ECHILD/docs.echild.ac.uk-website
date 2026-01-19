@@ -19,10 +19,12 @@ format:
     include-in-header:
       - text: <link href="https://docs.echild.ac.uk/favicon.ico?v=2" rel="icon">
           
-  pdf:
-    include-in-header:
-      - text: \svgsetup{inkscapeformat=eps}
-    toc-depth: 1
+pdf:
+  include-in-header:
+    - text: |
+        \usepackage{svg}
+        \svgsetup{inkscapeformat=eps}
+  toc-depth: 1
           
 pdf-engine-opts:
   - '--shell-escape'
