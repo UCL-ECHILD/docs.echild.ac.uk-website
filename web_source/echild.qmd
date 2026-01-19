@@ -4,6 +4,6 @@ In this section:
 
 * @sec-echild-introduction
 * @sec-echild-information-scope
-* @sec-echild-key-purposes
+* @sec-permitted-use
 * @sec-echild-overview
 * @sec-echild-database-structure
