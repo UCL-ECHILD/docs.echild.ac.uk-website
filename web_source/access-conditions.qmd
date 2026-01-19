@@ -1,6 +1,6 @@
 # Access conditions {#sec-access-access-conditions}
 
-Researchers will have to demonstrate how their research will benefit the health and well-being of children and young people accessing health, education and social care services. More specifically, projects will have to fall under at least one of the agreed five research purposes described in @sec-echild-key-purposes. We do not have approval for non-UCL PhD students without a substantive contract at an applying institution to access ECHILD.
+Researchers will have to demonstrate how their research will benefit the health and well-being of children and young people accessing health, education and social care services. More specifically, projects will have to fall under at least one of the agreed five research purposes described in @sec-permitted-use. We do not have approval for non-UCL PhD students without a substantive contract at an applying institution to access ECHILD.
 
 Researchers will be expected to:
 
