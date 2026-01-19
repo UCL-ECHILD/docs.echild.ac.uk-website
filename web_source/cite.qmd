@@ -42,7 +42,9 @@ of this ECHILD User Guide available at the time that the DOI is **accessed**.
 
 If you wish to link to the current release of the ECHILD User Guide at the 
 current time, you should use the DOI shown here : 
+::: {.content-visible when-format="html"}
 [![DOI](https://zenodo.org/badge/748342316.svg)](https://zenodo.org/badge/latestdoi/748342316)
+:::
 
 To find the DOI of a previous release, visit the ECHILD User Guide's
 [Zenodo record](https://zenodo.org/records/10854355) and select the applicable 
