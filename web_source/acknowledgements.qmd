@@ -1,4 +1,4 @@
-# Acknowledgements {.unnumbered}
+# Acknowledgements {#sec-acknowledgements}
 
 The ECHILD project is in partnership with NHS England and the Department for 
 Education (DfE) and we thank the following individuals for their valuable 

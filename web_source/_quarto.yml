@@ -9,7 +9,6 @@ project:
 execute:
   echo: false
   warning: false
-
 format:
   html:
     theme:
@@ -34,7 +33,6 @@ csl: harvard-cite-them-right-11th-edition.csl
 link-citations: true
 nocite: |
   @*
-
 # The 'book' key MUST appear last as subtitle 
 # is added (dynamically) to the end of the file
 book:
@@ -45,7 +43,6 @@ book:
     [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/),
     except example source code which is provided under the
     [MIT license](https://github.com/UCL-ECHILD/docs.echild.ac.uk-website/blob/main/LICENSE.md).
-  # cover-image: cover.jpg
   site-url: https://docs.echild.ac.uk/
   repo-url: https://github.com/UCL-ECHILD/docs.echild.ac.uk-website
   repo-subdir: web_source/
@@ -53,47 +50,51 @@ book:
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
-    - acknowledgements.qmd
     - cite.qmd
-    - acronyms.qmd
-    - versions.qmd
-    - disclaimer.qmd
+    - echild-introduction.qmd
+    - information-scope.qmd
+    - permitted-use.qmd
+    - key-features.qmd
     
-    - part: "ECHILD"
+    - part: "Data Sources"
       chapters:
-        - echild-introduction.qmd
-        - information-scope.qmd
-        - permitted-use.qmd
-        - echild-overview.qmd
-        - database-structure.qmd
-        
-    - part: "Data"
-      chapters:
-        - attribute-data.qmd
-        - data-coverage.qmd
         - nhs.qmd
         - dfe.qmd
-        - mother-baby.qmd
-
-    - part: "Accessing ECHILD"
+        - data-coverage.qmd
+    
+    - part: "Linkage"
       chapters:
-        - five-safes.qmd
-        - no-other-linkage.qmd
-        - ethics.qmd
-        - access-conditions.qmd
-        - access-process.qmd
-        - accredited-researcher.qmd
-        - aoc.qmd
-        
+        - mother-baby.qmd
+    
     - part: "Strengths & Limitations"
       chapters:
         - strengths.qmd
         - limits.qmd
     
+    - part: "Data Access"
+      chapters:
+        - five-safes.qmd
+        - ethics.qmd
+        - access-conditions.qmd
+        - access-process.qmd
+        - accredited-researcher.qmd
+        - aoc.qmd
+        - no-other-linkage.qmd
+    
     - part: "References"
-      chapters: 
+      chapters:
         - references.qmd
+    
+    - part: "About"
+      chapters:
+        - acronyms.qmd
+        - versions.qmd
+        - disclaimer.qmd
+        - acknowledgements.qmd
+        - authors.qmd
+        - contributors.qmd
+        - funding.qmd
+        - contact.qmd
   
   appendices:
-    - appendix-resources.qmd
     - appendix-linkage.qmd
