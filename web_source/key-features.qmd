@@ -1,3 +1,17 @@
 # Key Features {#sec-key-features}
 
-*Content to be added*
+-   Population-based cohort of children & young people born from September 1984 onwards in England (with planned annual updates)
+
+-   Longitudinal data from birth to mid-adulthood (e.g., individuals born in 1984 can be followed up until age 38 in 2022), representing \>350 million person-years of follow up
+
+-   Pseudonymised datasets that do NOT include any identifiable information (no name, address, postcode, date of birth, Unique Pupil Numbers or NHS numbers).
+
+-   Data from health (including information from NHS hospitals, maternity services, mental health services, community services), education (state schools in England) and children’s social care, combined with civil birth and death registrations
+
+-   Near-population coverage with linked data for an estimated 21 million individuals, with high linkage rates: 99% of pupil records are linked to a health record (National Data Opt Outs are applied to the health data, so effective linkage rates are lower)
+
+-   Linkage within and across datasets via a bridging file containing pseudonymised IDs for health and education datasets
+
+-   Access to approved researchers in the Office for National Statistics Secure Research Service
+
+-   Statistical Disclosure Control performed by the ONS team to ensure that confidentiality is preserved; researchers are not permitted to re-identify individuals
