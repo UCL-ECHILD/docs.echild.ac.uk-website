@@ -1,3 +1,7 @@
 # Funding {#sec-funding}
 
-*Content to be added*
+This work is funded via Administrative Data Research UK (ADR UK), an investment by the Economic and Social Research Council (part of UK Research and Innovation), through the following grants: 
+
+- [ES/V000977/1](https://app.dimensions.ai/details/grant/grant.9054357) 
+- [ES/X000427/1](https://app.dimensions.ai/details/grant/grant.12930475) 
+- [ES/X003663/1](https://app.dimensions.ai/details/grant/grant.12930194)
