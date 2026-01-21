@@ -1,3 +1,7 @@
 # Contact details {#sec-contact}
 
-*Content to be added*
+For further information, comments or queries about this publication:
+
+| Website | Email | X (formerly Twitter) |
+|:---:|:---:|:---:|
+| [www.echild.ac.uk](https://www.echild.ac.uk) | [ich.echild\@ucl.ac.uk](mailto:ich.echild@ucl.ac.uk){.email} | [\@ucl_echild](https://twitter.com/ucl_echild) |
