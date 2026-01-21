@@ -1,7 +1,8 @@
 # Acknowledgements {#sec-acknowledgements}
 
-The ECHILD project is in partnership with NHS England and the Department for 
-Education (DfE) and we thank the following individuals for their valuable 
+ECHILD is led by [University College London Great Ormond Street Institute of Child Health](https://www.ucl.ac.uk/population-health-sciences/child-health) in collaboration with the [London School of Hygiene & Tropical Medicine](https://www.lshtm.ac.uk/) and the [Institute for Fiscal Studies](https://www.ifs.org.uk/), in partnership with the [Department of Health and Social Care](https://www.gov.uk/government/organisations/department-of-health-and-social-care) and the [Department for Education](https://www.gov.uk/government/organisations/department-for-education), working with [NHS England](https://www.england.nhs.uk/) and the [Office for National Statistics](https://www.ons.gov.uk/).
+
+We thank the following individuals for their valuable 
 contributions to the project: Jodie Taylor-Brown, Ian Goodwin, Garry Coleman, 
 Richard Caulton, Catherine Day (NHS England), and Gary Connell, Harriet Fearn, 
 Kirsty Knox (DfE). We are also grateful to Bill South and Alan Cotterill from 
@@ -22,44 +23,5 @@ but was not commissioned by the National Institute for Health Research (NIHR)
 Policy Research Programme. The views expressed herein are those of the authors 
 and not necessarily those of the NIHR or the Department of Health and Social 
 Care.
-
-# Authors
-
-## UCL Great Ormond Street Institute of Child Health
-
--   Dr Farzan Ramzan
--   Dr Louise Mc Grath-Lone (now at UCL Institute of Education)
--   Dr Ruth Blackburn
--   Prof Ruth Gilbert
--   Dr Matthew Jay
--   Dr Kate Lewis
--   Mr Matthew Lilliman
--   Dr Vincent Nguyen
--   Dr Milagros Ruiz Nishiki
--   Mr Tony Stone
--   Prof Katie Harron
-
-# Contributors
-
-## UCL Great Ormond Street Institute of Child Health
-
--   Prof Pia Hardelid
--   Dr Nicolás Libuy (now at UCL Institute of Education)
--   Dr Ania Zylbersztejn
-
-## Institute for Fiscal Studies
-
--   Ms Christine Farquharson
--   Mr Imran Tahir
-
-# Funding
-
-This work is funded via Administrative Data Research UK (ADR UK), an investment 
-by the Economic and Social Research Council (part of UK Research and 
-Innovation), through the following grants:
-
-- [ES/V000977/1](https://gtr.ukri.org/projects?ref=ES/X003663/1)
-- [ES/X000427/1](https://gtr.ukri.org/projects?ref=ES/X000427/1)
-- [ES/X003663/1](https://gtr.ukri.org/projects?ref=ES/X003663/1).
 
 
