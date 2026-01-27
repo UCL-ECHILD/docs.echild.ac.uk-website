@@ -64,7 +64,7 @@ book:
     
     - part: "Linkage"
       chapters:
-        - mother-baby.qmd
+        - linkage.qmd
     
     - part: "Strengths & Limitations"
       chapters:
