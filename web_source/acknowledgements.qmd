@@ -2,12 +2,7 @@
 
 ECHILD is led by [University College London Great Ormond Street Institute of Child Health](https://www.ucl.ac.uk/population-health-sciences/child-health) in collaboration with the [London School of Hygiene & Tropical Medicine](https://www.lshtm.ac.uk/) and the [Institute for Fiscal Studies](https://www.ifs.org.uk/), in partnership with the [Department of Health and Social Care](https://www.gov.uk/government/organisations/department-of-health-and-social-care) and the [Department for Education](https://www.gov.uk/government/organisations/department-for-education), working with [NHS England](https://www.england.nhs.uk/) and the [Office for National Statistics](https://www.ons.gov.uk/).
 
-We thank the following individuals for their valuable 
-contributions to the project: Jodie Taylor-Brown, Ian Goodwin, Garry Coleman, 
-Richard Caulton, Catherine Day (NHS England), and Gary Connell, Harriet Fearn, 
-Kirsty Knox (DfE). We are also grateful to Bill South and Alan Cotterill from 
-the Office for National Statistics (ONS) for providing the Trustworthy Research 
-Environment for ECHILD.
+We thank the following individuals for their valuable contributions to the project. From NHS England, we are grateful to Jodie Taylor‑Brown, Ian Goodwin, Garry Coleman, Richard Caulton, Catherine Day, Terry Service, and Narissa Leyland. From the Department for Education (DfE), we thank Gary Connell, Harriet Fearn, Kirsty Knox, and Neide Phillips. We are also grateful to Bill South and Alan Cotterill from the Office for National Statistics (ONS) for providing the Trustworthy Research Environment for ECHILD. In addition, we thank Yoli Bartlett, Zuzanna Domaradzka, Cameron Kelly, Tudor Vilcan, Rachel Orchard, and all those in the ONS Secure Research Service Support, Applications, and Operations teams for their vital support.
 
 We thank all the children, young people, parents and carers who contributed to 
 the ECHILD project. We also gratefully acknowledge all children and families 
