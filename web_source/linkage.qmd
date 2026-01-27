@@ -1,4 +1,4 @@
-# Mother-baby Linkage in ECHILD {#sec-mother-baby-linkage}
+# Mother-baby Linkage in ECHILD {#sec-linkage}
 
 The ECHILD team have created a 'mother-baby' link [@feng2024a], whereby HES delivery and birth records for both mother and baby 
 are linked together using a probabilistic linkage algorithm [@harron2016a]. In summary, the probabilistic linkage approach uses 
