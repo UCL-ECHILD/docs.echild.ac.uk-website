@@ -38,3 +38,5 @@ who are simultaneously enrolled in more than one educational setting will have
 multiple rows of information recorded. These differences in data structure mean 
 that researchers will need to carry out substantial dataset manipulation prior 
 to their analyses.
+
+Data from other health providers such as General Practitioners (GPs) or pharmacies are not included. 
