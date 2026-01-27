@@ -25,8 +25,7 @@ cohort members who were born more recently.
 The constituent datasets within ECHILD are well-documented by data owners and the research 
 community. For example, details about how information in the datasets is collected, what 
 variables they contain and how coding has changed over time are readily available to 
-researchers. See references in previous chapters and @sec-resources, which highlights some 
-key resources for researchers.
+researchers. 
 
 ## Provides timely access to administrative data for research purposes 
 
