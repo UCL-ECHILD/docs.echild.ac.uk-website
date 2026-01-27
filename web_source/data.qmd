@@ -6,4 +6,4 @@ In this section:
 * @sec-data-coverage
 * @sec-data-hes
 * @sec-data-npd
-* @sec-mother-baby-linkage
+* @sec-linkage
