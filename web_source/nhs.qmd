@@ -1,112 +1,115 @@
 # Health data {#sec-data-hes}
 
 The data collections detailed below are supplied by NHS England. NHS England is responsible 
-for the collation of all these except for birth and death registration data, these are 
-collated by the Office for National Statistics.
+for the collation of all these except for birth and death registration data, which are collate by the Office for National Statistics (ONS).
+
+A pseudonymized, unique identifier (the Token Person ID; TPI) can be used to follow individuals within and across the health datasets. 
 
 ## Hospital Episode Statistics
 
-HES contains hospital records for all NHS patients in England, including patient 
-demographics and standardised codes for diagnoses, symptoms and procedures relating 
-to the care they have received [@nhse2023b]. The datasets are collected by NHSE from 
-hospital care providers and curated on an ongoing basis. However, data from other 
-health providers such as General Practitioners (GPs) or pharmacies are not included. 
-HES datasets are collated by financial year (1st April to 31st March) and following processing and quality 
-assessment, the finalised datasets are released for secondary use and remain 
-unchanged thereafter [@boyd2017a].
+Hospital Episode Statistics (HES) captures activity within NHS-funded hospitals in England, including inpatient hospital attendances, outpatient attendances, and A&E contacts. Approximately 97% of all children born in NHS-funded hospitals in England have a birth record in HES. 
+
+HES records contain basic demographic information (e.g., sex, ethnicity), area-level deprivation measured by the Index of Multiple Deprivation (IMD) of residential postcode (available at the Medium Super Output Area; MSOA level). Clinical information is based on International Classification of Diseases 10th Revision (ICD-10) diagnostic codes and Office of Population Censuses and Surveys Classification of Interventions and Procedures 4th Revision (OPCS-4) procedure codes [@nhse2023b].These codes can be used to create phenotypes; published examples of these are available in the [ECHILD phenotype repository](https://code.echild.ac.uk/).
+
+HES data are collected from hospital care providers for each **financial year** (1st April to 21st March) and curated on an ongoing basis. Following processing and quality assessment, finalised datasets are released for secondary use and remain unchanged thereafter  [@boyd2017a].
 
 ### Admitted Patient Care
 
-Records within the Admitted Patient Care (APC) dataset are called 'hospital episodes', 
-and each episode relates to a period of care for a patient under a single consultant 
-(consultant episode) within one hospital provider [@herbert2017a; @boyd2017a; @hdr2023b]. 
-The time from initial admission to discharge is called a 'spell', defined as 'periods of 
-continuous care in one provider institution' and each admission spell can be made up of 
-many episodes. APC data contain 'Finished Admission Episodes' (FAEs) which is the first 
-episode in a spell of care, and 'Finished Consultant Episodes' (FCEs), which is a 
-continuous period of care under one consultant. Only FCEs concluded within the financial 
-year (from 1st April to the end of 31st March) are included. Patients with an unfinished consultant 
-episode in the current financial year will have their record represented as a finished 
-episode in the next financial year of HES data.
+Years available: 1997 to 2023
 
-#### Inpatient spell (single hospital)
+APC is an episode-level dataset of patients admitted for treatment (i.e., requiring the use of a hospital bed), at NHS hospitals in England; includes delivery and birth data, up to 20 diagnostic codes per episode and procedure codes [@herbert2017a; @boyd2017a; @hdr2023b].
+
+Records within APC are called 'hospital episodes', and each episode relates to a period of care for a patient under a single consultant (consultant episode) within one hospital provider [@herbert2017a; @boyd2017a; @hdr2023b]. 
+The time from initial admission to discharge is called a ‘spell’, defined as ‘periods of continuous care in one provider institution’ and each admission spell can be made up of many episodes. A hospital admission commences when a patient is initially admitted for care and ends when a patient is discharged, transferred, or dies. One spell of admission encompasses multiple episodes of care under a different consultant. APC data contain ‘Finished Admission Episodes’ which are the first episode in a spell of care, and ‘Finished Consultant Episodes’, which are a continuous period of care under one consultant. Only Finished Consultant Episodes concluded within the financial year (from 1st April to the end of 31st March) are included. Patients with an unfinished consultant episode in the current financial year will have their record represented as a finished episode in the next financial year of HES data.
 
 A hospital admission commences when a patient is initially admitted for care and ends 
 when a patient is discharged, transferred, or dies.
-
 One spell of admission encompasses multiple episodes of care under a different 
 consultant.
 
 ![](static/data-hes-spell1.png){fig-alt="Diagram showing three finished consultant 
 episodes within one hospital admission, all comprising one spell."}
-
-#### Continuous Inpatient spell (across multiple hospitals)
+Figure 3: Inpatient spell (single hospital)
 
 In some instances, admitted patients who require specialised treatment may be 
 transferred from one hospital to another more specialist hospital, e.g., transfer 
 to a Children's hospital.
 
 ![](static/data-hes-spell2.png){fig-alt="Diagram showing three finished consultant 
-episodes within one hospital admission, all comprising one spell."}
+episodes within one hospital admission, all comprising one spell."} 
+Figure 4: Continuous inpatient spell (across multiple hospitals). In some instances, admitted patients who require specialised treatment may be transferred from one hospital to another more specialist hospital, e.g., transfer to a Children’s hospital.
 
-## Data collections
+### Critical Care (CC)
 
-### Acute Hospital Admitted Care data collections
+Years available: 2008 to 2023
 
-| Dataset | Years | Details |
-|:--------|:---|:-----------|
-| Admitted Patient Care (APC)[^4] | 1997 to 2023 | Episode-level dataset of patients admitted for treatment (i.e., requiring the use of a hospital bed), at NHS hospitals in England; includes delivery and birth data, up to 20 diagnostic codes per episode and procedure codes [@herbert2017a; @nhse2024b; @hdr2023b]. |
-| Critical Care (CC)[^5] | 2007 to 2023 | Episode-level dataset of patients admitted for treatment and receiving Critical Care (intensive care or high dependency care) at NHS hospitals in England. Treatment in adult designated wards where constant support and monitoring are required to maintain at least one organ (i.e., an Intensive Care or High Dependency Unit) [@hdr2023e; @nhse2024c].|
+Episode-level dataset of patients admitted for treatment and receiving Critical Care (intensive care or high dependency care) at NHS hospitals in England. Data are restricted those treated in wards where constant support and monitoring are required to maintain at least one organ (i.e., an Intensive Care or High Dependency Unit) (Health Data Research, 2023c; NHS England, 2024b). Children are only included in the data from 2017/18 onwards; prior to those, data were restricted to patients on adult designated wards. 
 
-[^1]: Diagnoses are recorded using the International Classification of
-    Disease (ICD) version 10 and procedures are recorded using the
-    Office of Population Censuses and Surveys (OPCS) version 4.
-    Diagnoses and procedures have very low levels of completeness in the
-    Outpatient dataset (5% and 26%, respectively) [@boyd2017a].
+### Outpatients (OPA)
 
-[^2]: See footnote 1.
+Years available: 2003 to 2023
 
-### Acute Hospital Attendance data collections
+Outpatient appointments at English NHS hospitals and NHS commissioned activity in the independent sector (regardless of whether the appointment was attended or not) (NHS England, 2023i; Health Data Research, 2023d). In 2003/04, the OP  module was considered experimental and did not have complete coverage as not all providers completed data submissions. Diagnoses and procedures have very low levels of completeness in the Outpatient dataset (5% and 26%, respectively) [@boyd2017a]. 
 
-| Dataset | Years | Details |
-|:--------|:---|:-----------|
-| Outpatients (OPA)[^1] | 2003 to 2023 | Outpatient appointments at English NHS hospitals and NHS commissioned activity in the independent sector (regardless of whether the appointment was attended or not) [@nhse2023c; @hdr2023c]. In 2003/04, the OP module was considered experimental and did not have complete coverage as not all providers completed data submissions. |
-| Accident & Emergency (A&E)[^2] | 2007 to 2020 | Attendance level dataset collecting information about the treatment received by patients attending A&E Departments, Minor Injury Units and Walk-In Centres, in England [@nhse2023f; @hdr2023d]. Please note diagnoses aren’t consistently captured in A&E records. |
-| Emergency Care Data Set (ECDS)[^3] | 2020 to 2023 | In 2018, the A&E dataset was replaced by the ECDS which is now the national dataset for Urgent & Emergency care [@nhse2023d; @nhse2023j; @hdr2023d]. Please note diagnoses aren’t consistently captured in ECDS records. |
+### Accident & Emergency (A&E) / Emergency Care Dataset (ECDS)
 
-[^3]: See footnote 1.
+Years available: 2007 to 2020  (A&E) and 2017 2023 (ECDS)
 
-[^4]: Bespoke codes are used to record diagnoses and treatments
-    [@nhse2023e]; however, these are much more limited than ICD-10 and
-    OPCS-4 codes. Prior to 2012/13, the A&E module was considered
-    experimental and did not have complete coverage as not all providers
-    completed data submissions [@nhse2023f].
+Attendance level dataset collecting information about the treatment received by patients attending A&E Departments, Minor Injury Units and Walk-In Centres, in England [@nhse2023f; @hdr2023d]. Bespoke codes are used to record diagnoses and treatments (NHS England, 2023f); however, these are much more limited than ICD-10 and OPCS-4 codes and do not have high levels of completeness. Prior to 2012/13, the A&E module was considered experimental and did not have complete coverage as not all providers completed data submissions (NHS England, 2023e). Bespoke codes are used to record diagnoses and treatments [@nhse2023e]; however, these are much more limited than ICD-10 and OPCS-4 codes. Prior to 2012/13, the A&E module was considered experimental and did not have complete coverage as not all providers completed data submissions [@nhse2023f].
 
-[^5]: ECDS uses a subset of SNOMED CT codes to record diagnoses and
-    treatments (amongst other variables) [@nhse2023d; @nhse2023j].
+In 2018, the A&E dataset was replaced by the ECDS which is now the national dataset for Urgent & Emergency care [@nhse2023d; @nhse2023j; @hdr2023d]. Please note diagnoses aren’t consistently captured in ECDS records. ECDS uses a subset of SNOMED CT codes to record diagnoses and treatments (amongst other variables) [@nhse2023d; @nhse2023j].
 
 
-### Mental Health data collections
+### Mental Health Data
 
-| Dataset | Years | Details |
-|:--------|:---|:-----------|
-| Mental Health Services Data Set (MHSDS) | 2016 to 2023 | Patient-level dataset that records all activity relating to patients who receive assessments and treatment from Mental Health Services in England, where the patient has (or is thought to have): either a mental health condition; a need for support with their mental well-being; a learning disability; autism; or any other neurodevelopmental condition [@nhse2023g]. **Note:** MHSDS includes data supplied by both Children and Young People's (formerly known as Child and Adolescent) mental health services, and adult mental health services. |
-| Mental Health & Learning Disabilities Data Set (MHLDDS) | 2014 to 2016 | MHLDDS is collected from adult mental health services [@nhse2024d]. **Note:** MHLDDS includes data supplied by adult mental health services only. |
-| Mental Health Minimum Data Set (MHMDS)| 2006 to 2016 | The MHMDS was the preliminary dataset capturing data about the use of adult Mental Health Services in England. However, the MHMDS was superseded by the Mental Health & Learning Disabilities Data Set, which in turn was superseded by the MHSDS [@nhse2024d]. **Note:** MHMDS includes data supplied by adult mental health services only. |
+#### Mental Health Services Dataset (MHSDS)
 
-### Maternity and Birth data collections
+Years available: 2016 to 2022
 
-| Dataset | Years | Details |
-|:--------|:---|:-----------|
-| Maternity Services Data Set (MSDS) | 2015 to 2023 | The MSDS is a patient-level dataset that captures information about activity carried out by Maternity Services relating to a mother and baby(ies), from the point of the first booking appointment until the mother and baby(ies) are discharged from maternity services. The MSDS collects records of each stage of the maternity service care pathway in NHS-funded maternity services and includes information not recorded in HES [@nhse2023h; @hdr2023a].  |
-| Birth Notification Data | 2001 to 2023 | Birth notification is a document completed by the doctor or midwife present at birth occurring in an NHS facility in England, Wales and the Isle of Man. The baby's NHS Number is issued as part of the 'statutory notification of birth'. Birth notification data includes information that is not found in the birth registration data such as gestation age and ethnicity of the baby as stated by the mother [@nhse2023i]. |
-| Birth Registration Data | 1996 to 2022 | Birth Registration Data includes information recorded when births are registered. It is a legal requirement to register all births in England and Wales. These registrations are lodged with a local registry office and collated by the General Register Office (for England and Wales). The General Register Office shares these data with the Office for National Statistics which processes these data and further shares the data with NHS England. All registered live births are included except very late registrations received more than 14 months after the end of each reference year (there are fewer than 100 of these for any given year) [@ons2023a]. Note: Birth Registration Data in ECHILD does not contain records relating to stillbirths due to how the ECHILD cohort is defined. |
+Patient-level dataset that records all activity relating to patients who receive assessments and treatment from Mental Health Services in England, where the patient has (or is thought to have): either a mental health condition; a need for support with their mental well-being; a learning disability; autism; or any other neurodevelopmental condition [@nhse2023g]. MHSDS includes data supplied by both Children and Young People's (formerly known as Child and Adolescent) mental health services, and adult mental health services. 
+
+MHSDS Data are collected about people treated in NHS-funded services for mental health and wellbeing, learning disability, autism or other neurodevelopmental conditions. Data collected include the type of care received, the length of care episodes, information on contact with mental health and social care professionals, and measures of health and social functioning. Please be reminded that data quality for MHSDS has not yet been fully assured; there is no single, reliable "diagnosis" variable for each individual or care episode. An individual can be associated with referrals to multiple services at the same time, for one or multiple reasons. Having a referral does not necessarily mean the referral is valid, accepted, or that treatment has been received. Further triangulation between MHSDS and other relevant data sources (such as HES, NHSBSA medicine dispensing, SCMD, and third-sector MH service providers) on diagnostic, crisis team, treatment and other service use is needed.
+
+#### Mental Health & Learning Disabilities Datset (MHLDDS)
+
+Years available: 2014 to 2016
+
+MHLDDS is collected from adult mental health services [@nhse2024d] and does not include information on children.
+
+#### Mental Health Minimum Dataset (MHMDS)
+
+Years available:  2006 to 2014
+
+The MHMDS was the preliminary dataset capturing data about the use of adult Mental Health Services in England. However, the MHMDS was superseded by the Mental Health & Learning Disabilities Data Set, which in turn was superseded by the MHSDS [@nhse2024d]. MHMDS includes data supplied by adult mental health services only and does not include children.
+
+### Maternity and Births
+
+#### Maternity Services Data Set (MSDS)
+
+Years available: 2015 to 2019 (v1.5): and 2019 to 2022 (v2.0)
+
+The MSDS is a patient-level dataset that captures information about activity carried out by Maternity Services relating to a mother and baby(ies), from the point of the first booking appointment until the mother and baby(ies) are discharged from maternity services. The MSDS collects records of each stage of the maternity service care pathway in NHS-funded maternity services and includes information not recorded in HES [@nhse2023h; @hdr2023a]. 
+
+#### Birth notifications
+
+Years available: 2003 to 2022
+
+Birth notifications are documents completed by the doctor or midwife present at birth occurring in an NHS facility. At this point, the baby's NHS Number is issued as part of the 'statutory notification of birth' (but is not visible within ECHILD). Birth notification data includes information that is not found in the birth registration data such as gestation age and ethnicity of the baby as stated by the mother [@nhse2023i]. 
+
+#### Civil Registration Births 
+
+Years available: 1996 to 2023
+
+Birth Registration Data includes information recorded when births are registered. It is a legal requirement to register all births in England and Wales. These registrations are lodged with a local registry office and collated by the General Register Office (for England and Wales). The General Register Office shares these data with the Office for National Statistics which processes these data and further shares the data with NHS England. All registered live births are included except very late registrations received more than 14 months after the end of each reference year (there are fewer than 100 of these for any given year) [@ons2023a]. Birth Registration Data in ECHILD does not contain records relating to stillbirths due to how the ECHILD cohort is defined.
 
 
+### Mortality
 
-### Other data collections
+Years available:  1997 to 2024
 
-| Dataset | Years | Details |
-|:--------|:---|:-----------|
-| Death Registration Data | 1998 to 2023 | It is a legal requirement to register all deaths in England and Wales. Death registrations are lodged with a local registry office and collated by the General Register Office (for England and Wales). The General Register Office shares these data with the Office for National Statistics which processes these data and further shares the data with NHS England. Death Registration Data contains information taken from death certificates for all deaths registered in England and Wales and includes cause of death, date and place of death. Information related to stillbirths is not available in this data, see Birth Registration Data. Some deaths, particularly those referred to a coroner, may not be registered until long after the date of death. |
-| Community Services Data Set (CSDS) | 2015 to 2023 | The CSDS captures activity data about children and adults collected by Community Services, including health visiting teams. Such activities may take place in settings such as Health centres; Day care facilities; Schools or Community centres; Mobile facilities, or a patient's own home [@nhse2023l]. Data are collected about children and adults e.g., personal, demographic or social circumstances; breastfeeding and nutrition; long-term conditions (disabilities), diagnoses and scored assessments. The CSDS is comprised of patient-level data from all publicly funded community services providers e.g., Foundation or Non-Foundation Trusts; Acute Trusts; Mental health Trusts, Community Healthcare Trusts, Independent sector providers and Local Authorities. CSDS data are inconsistently captured over time; meaningful interpretation of data prior to 2018/19 is challenging [@clery2024]. |
+It is a legal requirement to register all deaths in England and Wales. Death registrations are lodged with a local registry office and collated by the General Register Office (for England and Wales). The General Register Office shares these data with the Office for National Statistics which processes these data and further shares the data with NHS England. Mortality data contains information taken from death certificates for all deaths registered in England and Wales and includes cause of death, date and place of death. Information related to stillbirths is not available in this data. Some deaths, particularly those referred to a coroner, may not be registered until long after the date of death.
+
+### Community Services Dataset (CSDS)
+
+The CSDS captures activity data about children and adults collected by Community Services, including health visiting teams. Such activities may take place in settings such as Health centres; Day care facilities; Schools or Community centres; Mobile facilities, or a patient's own home [@nhse2023l]. Data are collected about children and adults e.g., personal, demographic or social circumstances; breastfeeding and nutrition; long-term conditions (disabilities), diagnoses and scored assessments. The CSDS is comprised of patient-level data from all publicly funded community services providers e.g., Foundation or Non-Foundation Trusts; Acute Trusts; Mental health Trusts, Community Healthcare Trusts, Independent sector providers and Local Authorities. CSDS data are inconsistently captured over time; meaningful interpretation of data prior to 2018/19 is challenging [@clery2024].
+
