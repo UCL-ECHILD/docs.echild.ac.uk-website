@@ -5,7 +5,7 @@ Substantive employees, or PhD students with a substantive contract, within UK un
 1. Obtain Full
    [Accredited Researcher status](https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/approvedresearcherscheme).
 1. Familiarise yourself with the [ECHILD User Guide](https://docs.echild.ac.uk/)
-   and [Data Catalogue](https://www.echild.ac.uk/s/echild_datacatalogue_v21_202310.xlsx). 
+   and [Data Catalogue](https://www.echild.ac.uk/s/ECHILD_DataCatalogue_v31_20251209.xlsx). 
 1. Ensure that your institution has 
    [Assured Organisational Connectivity](https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/secureresearchservice/accessthedatasecurely)
    certified by the ONS Secure Research Service, or alternatively, check you can access the
