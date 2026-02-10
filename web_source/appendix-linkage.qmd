@@ -1,4 +1,4 @@
-# Linkage process {#sec-linkage}
+# Linkage process {#sec-appendix-linkage}
 
 This section provides an overview of the linkage process (see figure under 
 [ECHILD database structure](database-structure.qmd)) used to create the ECHILD database. 
