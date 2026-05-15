@@ -1,7 +1,7 @@
 # Health data {#sec-data-hes}
 
 The data collections detailed below are supplied by NHS England. NHS England is responsible 
-for the collation of all these except for birth and death registration data, which are collate by the Office for National Statistics (ONS).
+for the collation of all these except for Civil birth and death registrations, which are collated by the Office for National Statistics (ONS).
 
 A pseudonymized, unique identifier (the Token Person ID; TPI) can be used to follow individuals within and across the health datasets. 
 
@@ -70,7 +70,7 @@ Patient-level dataset that records all activity relating to patients who receive
 
 MHSDS Data are collected about people treated in NHS-funded services for mental health and wellbeing, learning disability, autism or other neurodevelopmental conditions. Data collected include the type of care received, the length of care episodes, information on contact with mental health and social care professionals, and measures of health and social functioning. Please be reminded that data quality for MHSDS has not yet been fully assured; there is no single, reliable "diagnosis" variable for each individual or care episode. An individual can be associated with referrals to multiple services at the same time, for one or multiple reasons. Having a referral does not necessarily mean the referral is valid, accepted, or that treatment has been received. Further triangulation between MHSDS and other relevant data sources (such as HES, NHSBSA medicine dispensing, SCMD, and third-sector MH service providers) on diagnostic, crisis team, treatment and other service use is needed.
 
-#### Mental Health & Learning Disabilities Datset (MHLDDS)
+#### Mental Health & Learning Disabilities Dataset (MHLDDS)
 
 Years available: 2014 to 2016
 
@@ -96,14 +96,14 @@ Years available: 2003 to 2022
 
 Birth notifications are documents completed by the doctor or midwife present at birth occurring in an NHS facility. At this point, the baby's NHS Number is issued as part of the 'statutory notification of birth' (but is not visible within ECHILD). Birth notification data includes information that is not found in the birth registration data such as gestation age and ethnicity of the baby as stated by the mother [@nhse2023i]. 
 
-#### Civil Registration Births 
+#### Civil Registrations of Births 
 
 Years available: 1996 to 2023
 
 Birth Registration Data includes information recorded when births are registered. It is a legal requirement to register all births in England and Wales. These registrations are lodged with a local registry office and collated by the General Register Office (for England and Wales). The General Register Office shares these data with the Office for National Statistics which processes these data and further shares the data with NHS England. All registered live births are included except very late registrations received more than 14 months after the end of each reference year (there are fewer than 100 of these for any given year) [@ons2023a]. Birth Registration Data in ECHILD does not contain records relating to stillbirths due to how the ECHILD cohort is defined.
 
 
-### Mortality
+### Civil Registrations of Deaths
 
 Years available:  1997 to 2024
 
