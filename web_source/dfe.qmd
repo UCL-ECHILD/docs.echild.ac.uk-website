@@ -72,7 +72,7 @@ Years available: 2020 to 2022
 
 GIAS (formerly ‘Edubase’) is the DfE’s public register or dataset containing school characteristics. GIAS is updated whenever a school updates their details. GIAS also maintains information for several organisation types and is used by the DfE to contact establishments, update systems, perform analysis and inform policy decisions [@education2024d].
 
-## Educational Outcomes data collecitons
+## Educational Outcomes data collections
 
 ### Early Years Foundation Stage Profile (EYFSP)
 Years available: Academic years from 2003 to 2019, and 2022 (Missing: 2020)
@@ -158,23 +158,6 @@ Information on children looked after by a local authority in England for a perio
 Years available: 2008 to 2022 
 
 Has information covering all children who are referred to children’s social care services, including information on whether they were assessed and found to be in need [@emmott2019a; @education2024h; @education2023e]. The CIN census also contains information on children who are subject to a Child Protection Plan (CPP).
-
-### Children in Need Census Assessment Factors
-Years available: 2009-2022
-
-[Pending]
-
-### Children in Need Census Assessments
-
-Years available: 2015 to 2022
-
-[Pending]
-
-###	Children in Need Census Disabilities
-
-Years available: 2009 to 2022
-
-[Pending]
 
 
 ## Individualised Learner Record data collection
