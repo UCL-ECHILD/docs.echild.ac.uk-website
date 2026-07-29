@@ -25,5 +25,5 @@ Substantive employees and PhD students at a UK university/institution who are Ac
    [ONS PASS system](https://ons.metadata.works/browser/landing) for project accreditation.\
    *Note: applications take an average of 10 weeks to be processed by ONS.*
 1. Finally, your organisation will need to sign a **non-negotiable**
-   [Data Access Agreement](https://www.echild.ac.uk/s/eCHILD-Sublicence-agreement_SAMPLE_TO_SHARE.pdf)
+   [Data Access Agreement](https://www.echild.ac.uk/s/ECHILD-Sublicence-Template_v30_COPY_TO_SHARE.pdf)
    (sublicense) with UCL.
