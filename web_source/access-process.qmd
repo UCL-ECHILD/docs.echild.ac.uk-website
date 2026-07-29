@@ -1,6 +1,6 @@
 # Process to access ECHILD {#sec-access-process}
 
-Substantive employees, or PhD students with a substantive contract, within UK universities or other research organisation can apply to access ECHILD using the following process: 
+Substantive employees and PhD students at a UK university/institution who are Accredited Researchers can apply to access ECHILD. PhD students must be supervised by a fully accredited substantive employee who takes responsibility for the project. The following is the process to apply to access ECHILD data:
 
 1. Obtain Full
    [Accredited Researcher status](https://www.ons.gov.uk/aboutus/whatwedo/statistics/requestingstatistics/approvedresearcherscheme).
