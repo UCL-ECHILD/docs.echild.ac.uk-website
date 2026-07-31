@@ -11,7 +11,7 @@ Hospital Episode Statistics (HES) captures activity within NHS-funded hospitals 
 
 HES records contain basic demographic information (e.g., sex, ethnicity), area-level deprivation measured by the Index of Multiple Deprivation (IMD) of residential postcode (available at the Medium Super Output Area; MSOA level). Clinical information is based on International Classification of Diseases 10th Revision (ICD-10) diagnostic codes and Office of Population Censuses and Surveys Classification of Interventions and Procedures 4th Revision (OPCS-4) procedure codes [@nhse2023b].These codes can be used to create phenotypes; published examples of these are available in the [ECHILD phenotype repository](https://code.echild.ac.uk/).
 
-HES data are collected from hospital care providers for each **financial year** (1st April to 21st March) and curated on an ongoing basis. Following processing and quality assessment, finalised datasets are released for secondary use and remain unchanged thereafter  [@boyd2017a].
+HES data are collected from hospital care providers for each **financial year** (1st April to 31st March) and curated on an ongoing basis. Following processing and quality assessment, finalised datasets are released for secondary use and remain unchanged thereafter  [@boyd2017a].
 
 ### Admitted Patient Care
 
@@ -53,9 +53,9 @@ Outpatient appointments at English NHS hospitals and NHS commissioned activity i
 
 ### Accident & Emergency (A&E) / Emergency Care Dataset (ECDS)
 
-Years available: 2007 to 2020  (A&E) and 2017 2023 (ECDS)
+Years available: 2007 to 2020  (A&E) and 2017 to 2023 (ECDS)
 
-Attendance level dataset collecting information about the treatment received by patients attending A&E Departments, Minor Injury Units and Walk-In Centres, in England [@nhse2023f; @hdr2023d]. Bespoke codes are used to record diagnoses and treatments (NHS England, 2023f); however, these are much more limited than ICD-10 and OPCS-4 codes and do not have high levels of completeness. Prior to 2012/13, the A&E module was considered experimental and did not have complete coverage as not all providers completed data submissions (NHS England, 2023e). Bespoke codes are used to record diagnoses and treatments [@nhse2023e]; however, these are much more limited than ICD-10 and OPCS-4 codes. Prior to 2012/13, the A&E module was considered experimental and did not have complete coverage as not all providers completed data submissions [@nhse2023f].
+Attendance level dataset collecting information about the treatment received by patients attending A&E Departments, Minor Injury Units and Walk-In Centres, in England [@nhse2023f; @hdr2023d]. Bespoke codes are used to record diagnoses and treatments (NHS England, 2023f); however, these are much more limited than ICD-10 and OPCS-4 codes and do not have high levels of completeness. Prior to 2012/13, the A&E module was considered experimental and did not have complete coverage as not all providers completed data submissions [@nhse2023f].
 
 In 2018, the A&E dataset was replaced by the ECDS which is now the national dataset for Urgent & Emergency care [@nhse2023d; @nhse2023j; @hdr2023d]. Please note diagnoses aren’t consistently captured in ECDS records. ECDS uses a subset of SNOMED CT codes to record diagnoses and treatments (amongst other variables) [@nhse2023d; @nhse2023j].
 
